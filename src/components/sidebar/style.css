@@ -1,0 +1,246 @@
+.app-sidebar {
+  z-index: 2;
+  text-align: center;
+  background: #181f25;
+  border-left: 1px solid #242f38;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1) inset, 0px 0px 2px rgba(0, 0, 0, 0.2) inset, 0px 0px 1px rgba(0, 0, 0, 0.5) inset, 0px 0px 0px 3px rgba(0, 0, 0, 0.025) inset; }
+  .show-sidebar .app-sidebar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 240px;
+    transform: translateX(0%); }
+  .hide-sidebar .app-sidebar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 240px;
+    transform: translateX(-100%);
+    overflow: hidden; }
+  .app-sidebar .logo-box {
+    padding: 20px 0px;
+    background: #222c35; }
+    .app-sidebar .logo-box.clear {
+      background: transparent; }
+  .app-sidebar .sidebar-content {
+    overflow-y: scroll;
+    max-height: 100vh;
+    padding-bottom: 100px; }
+  .app-sidebar h2 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-top: 10px; }
+    .app-sidebar h2 small {
+      display: block; }
+  .app-sidebar .footer-box {
+    padding: 20px 0px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+  .app-sidebar .stukent-logo {
+    height: 30px; }
+  .app-sidebar > a:link {
+    margin: 10px 0;
+    position: relative;
+    display: block;
+    line-height: 40px;
+    vertical-align: middle;
+    padding: 0 35px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    transition-duration: .2s;
+    cursor: pointer;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  .app-sidebar > a:visited {
+    color: rgba(255, 255, 255, 0.7); }
+  .app-sidebar > a:hover:not(.active) {
+    margin-left: 5px;
+    color: white; }
+  .app-sidebar > a:active:not(.active) {
+    background: rgba(0, 0, 0, 0.1);
+    margin-left: 7px;
+    color: rgba(255, 255, 255, 0.7);
+    transition-duration: 0s; }
+  .app-sidebar > a.active {
+    background: #30a648;
+    border-right: #257e37;
+    color: #fff;
+    margin-left: 10px;
+    cursor: default;
+    transition-duration: 0s; }
+  .app-sidebar > a .fa {
+    color: red;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%); }
+  .app-sidebar .run-sim {
+    position: relative;
+    margin: 10px 20px;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+    .app-sidebar .run-sim > button {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 3px;
+      border: 2px solid transparent;
+      color: rgba(255, 255, 255, 0.9);
+      cursor: pointer;
+      display: block;
+      line-height: 40px;
+      padding: 0px 35px;
+      text-align: center;
+      text-decoration: none;
+      transition-duration: .3s;
+      width: 100%; }
+      .app-sidebar .run-sim > button:hover:not(.active) {
+        color: white; }
+      .app-sidebar .run-sim > button:active:not(.active) {
+        background: rgba(0, 0, 0, 0.1);
+        color: rgba(255, 255, 255, 0.7);
+        transition-duration: 0s; }
+      .app-sidebar .run-sim > button.active {
+        background: #30a648;
+        color: #fff;
+        cursor: default;
+        transition-duration: 0s; }
+      .app-sidebar .run-sim > button.accent {
+        animation: flash-run-sim-anim 3s infinite alternate; }
+      .app-sidebar .run-sim > button .fa {
+        vertical-align: middle;
+        font-size: 20px;
+        margin-right: 10px;
+        margin-top: -2px; }
+    .app-sidebar .run-sim .popout {
+      height: 400px; }
+  .app-sidebar .scenario-events {
+    position: relative;
+    margin: 10px 20px; }
+    .app-sidebar .scenario-events > button {
+      border-radius: 3px;
+      border: 2px solid transparent;
+      color: rgba(255, 255, 255, 0.9);
+      cursor: pointer;
+      display: block;
+      line-height: 40px;
+      padding: 0px 16px;
+      text-align: left;
+      text-decoration: none;
+      transition-duration: .3s;
+      width: 100%;
+      background: transparent; }
+      .app-sidebar .scenario-events > button:hover:not(.active) {
+        color: white; }
+      .app-sidebar .scenario-events > button:active:not(.active) {
+        background: rgba(0, 0, 0, 0.1);
+        color: rgba(255, 255, 255, 0.7);
+        transition-duration: 0s; }
+      .app-sidebar .scenario-events > button.active {
+        background: #30a648;
+        color: #fff;
+        cursor: default;
+        transition-duration: 0s; }
+      .app-sidebar .scenario-events > button img {
+        height: 30px;
+        width: 30px;
+        border-radius: 1000px;
+        vertical-align: middle;
+        margin-right: 10px; }
+      .app-sidebar .scenario-events > button .fa {
+        position: absolute;
+        right: 10px;
+        line-height: 44px; }
+      .app-sidebar .scenario-events > button.accent {
+        animation: flash-run-sim-anim 3s infinite alternate; }
+      .app-sidebar .scenario-events > button .fa {
+        vertical-align: middle;
+        font-size: 20px;
+        margin-right: 10px;
+        margin-top: -2px; }
+    .app-sidebar .scenario-events .popout {
+      text-align: left;
+      height: 350px;
+      width: 40vw;
+      min-width: 320px;
+      padding-bottom: 100px;
+      overflow: auto; }
+      .app-sidebar .scenario-events .popout strong {
+        display: block;
+        margin-bottom: 5px; }
+        .app-sidebar .scenario-events .popout strong img {
+          height: 30px;
+          width: 30px;
+          border-radius: 1000px;
+          vertical-align: middle;
+          margin-right: 10px; }
+      .app-sidebar .scenario-events .popout .btn-group-vertical {
+        margin-top: 20px;
+        margin-bottom: 20px; }
+        .app-sidebar .scenario-events .popout .btn-group-vertical .btn {
+          text-align: left;
+          white-space: normal;
+          max-width: 100%;
+          height: auto; }
+          .app-sidebar .scenario-events .popout .btn-group-vertical .btn .fa {
+            margin-right: 10px; }
+  .app-sidebar .popout {
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 5px);
+    transform: translate(0, -50%);
+    background: white;
+    z-index: 10000;
+    width: 400px;
+    height: 200px;
+    color: #333;
+    border-radius: 3px;
+    box-shadow: 0px 0px 64px rgba(0, 0, 0, 0.1), 0px 0px 16px rgba(0, 0, 0, 0.1), 0px 0px 3px rgba(0, 0, 0, 0.1), 0px 0px 1px rgba(0, 0, 0, 0.25), 0px 0px 0px 3px rgba(0, 0, 0, 0.0125);
+    text-shadow: none;
+    cursor: default; }
+    .app-sidebar .popout:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(-100%, -50%);
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-right: 10px solid white; }
+    .app-sidebar .popout .msg {
+      display: block;
+      border: 1px solid #ddd;
+      border-radius: 15px;
+      width: 90%;
+      clear: both;
+      margin-bottom: 10px;
+      padding: 10px;
+      position: relative; }
+      .app-sidebar .popout .msg:first-child {
+        border-top-left-radius: 3px; }
+      .app-sidebar .popout .msg:last-child {
+        border-bottom-left-radius: 3px; }
+      .app-sidebar .popout .msg.msg-right {
+        float: right;
+        border: 1px solid #2a923f;
+        background: #30a648;
+        color: white; }
+
+@keyframes flash-run-sim-anim {
+  0% {
+    border: 2px solid transparent; }
+  66% {
+    border: 2px solid transparent; }
+  100% {
+    border: 2px solid rgba(13, 85, 148, 0.905); } }

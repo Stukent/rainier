@@ -1,0 +1,22 @@
+.budget-section {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 20px;
+  padding: 5px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  pointer-events: none; }
+  .budget-section .section {
+    width: 50%;
+    float: left;
+    font-size: 1.5em; }
+    .budget-section .section:before {
+      color: rgba(255, 255, 255, 0.5);
+      display: block;
+      content: attr(title);
+      text-transform: uppercase;
+      font-size: 0.5em; }
+    .budget-section .section.red {
+      color: #d81e1e; }

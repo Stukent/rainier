@@ -1,0 +1,130 @@
+.week-graph-container {
+  float: left;
+  min-width: 300px;
+  text-align: center;
+  margin: 20px 10px; }
+  .week-graph-container .container-box {
+    width: 300px;
+    background: white;
+    font-weight: 500;
+    position: relative;
+    text-align: left;
+    margin: auto;
+    border-top: 1px solid #ddd;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+    .week-graph-container .container-box .fa-caret-up {
+      color: #2fc12f; }
+    .week-graph-container .container-box .fa-caret-down {
+      color: #d50000; }
+    .week-graph-container .container-box .header {
+      background: #f4f4f4;
+      line-height: 46px;
+      border-bottom: .5px solid #cccccc;
+      padding: 0px 15px; }
+      .week-graph-container .container-box .header .fa:not(.fa-angle-right) {
+        margin: 0px 15px 0px 4px; }
+      .week-graph-container .container-box .header .fa-angle-right {
+        float: right;
+        line-height: 46px; }
+    .week-graph-container .container-box .total-box {
+      padding: 15px 5px;
+      margin: 0px 15px;
+      border-bottom: .5px solid #cccccc;
+      color: #757575;
+      font-size: 15px; }
+      .week-graph-container .container-box .total-box .total {
+        font-weight: bold;
+        display: inline-block;
+        color: #212121;
+        font-size: 18px; }
+      .week-graph-container .container-box .total-box .total-text {
+        display: inline-block;
+        margin-left: 8px; }
+      .week-graph-container .container-box .total-box .last-week {
+        display: inline-block; }
+        .week-graph-container .container-box .total-box .last-week .percent {
+          display: inline-block;
+          color: #757575;
+          margin: 0px 5px; }
+        .week-graph-container .container-box .total-box .last-week p {
+          display: inline-block;
+          margin: 3px 0px 0px 4px; }
+    .week-graph-container .container-box .weekly-metric {
+      padding: 15px 20px 0px 20px; }
+      .week-graph-container .container-box .weekly-metric .total {
+        font-weight: bold;
+        color: #212121;
+        font-size: 20px; }
+      .week-graph-container .container-box .weekly-metric .text-label {
+        color: #757575;
+        font-size: 15px;
+        margin: 3px 0px; }
+      .week-graph-container .container-box .weekly-metric .percent {
+        display: inline-block;
+        color: #757575;
+        margin: 0px 5px;
+        font-size: 15px; }
+    .week-graph-container .container-box .keys-box {
+      float: right;
+      margin-right: 12px; }
+      .week-graph-container .container-box .keys-box .key {
+        font-style: 'Open Sans', sans-serif;
+        font-size: 14px; }
+        .week-graph-container .container-box .keys-box .key .this-week {
+          background: #15926c;
+          height: 2.4px;
+          width: 15px;
+          margin: 4px; }
+        .week-graph-container .container-box .keys-box .key .last-week {
+          background: #cccccc;
+          height: .8px;
+          width: 15px;
+          margin: 4px; }
+        .week-graph-container .container-box .keys-box .key div {
+          display: inline-block; }
+        .week-graph-container .container-box .keys-box .key p {
+          display: inline-block;
+          margin: 1px 8px; }
+        .week-graph-container .container-box .keys-box .key .fa {
+          font-style: 'Open Sans', sans-serif !important; }
+        .week-graph-container .container-box .keys-box .key .fa:first-child {
+          color: #8884d8; }
+        .week-graph-container .container-box .keys-box .key .fa {
+          color: #cccccc; }
+    .week-graph-container .container-box .line-chart {
+      position: absolute;
+      margin-left: -15px; }
+    .week-graph-container .container-box .recharts-surface {
+      margin-top: 35px;
+      padding-bottom: 20px; }
+  .week-graph-container .mapped-dates {
+    bottom: 0;
+    position: absolute;
+    border-top: 1px solid #cccccc;
+    width: 100%;
+    display: flex; }
+    .week-graph-container .mapped-dates .date {
+      font-size: 10px;
+      flex-grow: 1;
+      padding: 7px;
+      color: #757575; }
+  .week-graph-container .sparkline-box {
+    border-bottom: .5px solid #cccccc;
+    margin: 0px 12px;
+    padding: 13px 7px; }
+    .week-graph-container .sparkline-box:last-child {
+      border-bottom: 0px; }
+    .week-graph-container .sparkline-box .description-box {
+      display: inline-block;
+      width: 50px; }
+      .week-graph-container .sparkline-box .description-box .engage-total {
+        font-weight: bold;
+        display: inline-block;
+        color: #212121;
+        font-size: 18px; }
+      .week-graph-container .sparkline-box .description-box .engage-description {
+        color: #757575;
+        font-size: 15px; }
+    .week-graph-container .sparkline-box .spark-chart {
+      display: inline-block;
+      margin-left: 82px; }

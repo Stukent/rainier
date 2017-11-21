@@ -1,0 +1,11 @@
+{
+  "impressions": "Number of times your posts are seen by users",
+  "engagements": "Number of times your posts are liked, shared, or commented on",
+  "clicks": "Number of times users click on your post to visit your website",
+  "ctr": "Click-through rate: The ratio of clicks to impressions",
+  "cpc": "Cost per click: This includes content costs and organic clicks",
+  "conversions": "Number of sales that your posts directly led to",
+  "rank": "This is based on revenue",
+  "cost": "The amount of the post's promotional budget that has been used, or N/A if the post was not promoted",
+  "revenue": "The total amount of money that your posts brought in"
+}

@@ -1,0 +1,19 @@
+div.app-content {
+  right: 0;
+  z-index: 1;
+  background: #fafcfe;
+  min-height: 100vh;
+  overflow: auto; }
+  .show-sidebar div.app-content {
+    position: absolute;
+    top: 0;
+    left: 240px;
+    bottom: 0; }
+  .hide-sidebar div.app-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0; }
+  @media screen and (min-width: 769px) {
+    div.app-content .hide-sidebar {
+      display: none; } }

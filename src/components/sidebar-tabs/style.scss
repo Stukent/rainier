@@ -1,0 +1,58 @@
+@import "../../util/vars.scss";
+
+.sidebar-tabs {
+  .sidebar-tabs-links {
+    min-height: 100vh;
+    border-right: 1px solid #ccc;
+    background: rgba(0,0,0,.025);
+    padding: 0;
+    a {
+      display: block;
+      margin-bottom: 10px;
+      border-radius: 3px;
+      margin: 10px;
+      transition-duration: .1s;
+      position: relative;
+      &:not(:last-child):after {
+        position: absolute;
+        display: block;
+        width: 100%;
+        content: '';
+        padding-top: 3px;
+        border-bottom: 1px solid #ccc;
+        bottom: -5px;
+        left: 0;
+      }
+      &:link {
+        text-decoration: none;
+        color: #333;
+      }
+      &:visited {
+        color: #333;
+      }
+      &:hover {
+        background: #eee;
+      }
+      &:active {
+        background: #ddd;
+      }
+      &.active {
+        background: $brand-bright;
+        color: white;
+      }
+      i.fa {
+        display: inline-block;
+        margin-right: 20px;
+        vertical-align: middle;
+        font-size: 20px;
+      }
+      span {
+        padding: 12px 20px;
+        display: inline-block;
+      }
+      .btn {
+
+      }
+    }
+  }
+}

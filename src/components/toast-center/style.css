@@ -1,0 +1,23 @@
+.app-toast-center {
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000000;
+  max-height: 100vh;
+  padding-top: 32px;
+  overflow: auto; }
+  .app-toast-center .toast {
+    min-width: 320px;
+    width: 33vw;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    margin-bottom: 20px;
+    animation: toast-in-anim 0.3s; }
+    .app-toast-center .toast .icon.fa {
+      margin-right: 10px; }
+
+@keyframes toast-in-anim {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }

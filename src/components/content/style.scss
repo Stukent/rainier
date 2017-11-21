@@ -1,0 +1,32 @@
+@import "../../util/vars.scss";
+
+div.app-content {
+  .show-sidebar & {
+    position: absolute;
+    top: 0;
+    left: $nested-sidebar-width;
+    bottom: 0;
+  }
+   .hide-sidebar & {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+  @media screen and ( min-width: 769px ) {
+    .hide-sidebar {
+      display: none;
+    }
+  }
+  // .show-instructions & {
+  //   right: 30vw;
+  // }
+  // .hide-instructions & {
+  //   right: 0;
+  // }
+  right: 0;
+  z-index: 1;
+  background: #fafcfe;
+  min-height: 100vh;
+  overflow: auto;
+}

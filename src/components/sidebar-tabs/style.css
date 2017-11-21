@@ -1,0 +1,41 @@
+.sidebar-tabs .sidebar-tabs-links {
+  min-height: 100vh;
+  border-right: 1px solid #ccc;
+  background: rgba(0, 0, 0, 0.025);
+  padding: 0; }
+  .sidebar-tabs .sidebar-tabs-links a {
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    margin: 10px;
+    transition-duration: .1s;
+    position: relative; }
+    .sidebar-tabs .sidebar-tabs-links a:not(:last-child):after {
+      position: absolute;
+      display: block;
+      width: 100%;
+      content: '';
+      padding-top: 3px;
+      border-bottom: 1px solid #ccc;
+      bottom: -5px;
+      left: 0; }
+    .sidebar-tabs .sidebar-tabs-links a:link {
+      text-decoration: none;
+      color: #333; }
+    .sidebar-tabs .sidebar-tabs-links a:visited {
+      color: #333; }
+    .sidebar-tabs .sidebar-tabs-links a:hover {
+      background: #eee; }
+    .sidebar-tabs .sidebar-tabs-links a:active {
+      background: #ddd; }
+    .sidebar-tabs .sidebar-tabs-links a.active {
+      background: #30a648;
+      color: white; }
+    .sidebar-tabs .sidebar-tabs-links a i.fa {
+      display: inline-block;
+      margin-right: 20px;
+      vertical-align: middle;
+      font-size: 20px; }
+    .sidebar-tabs .sidebar-tabs-links a span {
+      padding: 12px 20px;
+      display: inline-block; }

@@ -1,0 +1,11 @@
+@import "../../util/vars.scss";
+
+header>.tab {
+  display: inline-block;
+  min-width: 320px;
+  text-align: left;
+  margin-bottom: 0;
+  a {
+    display: inline-block;
+  }
+}

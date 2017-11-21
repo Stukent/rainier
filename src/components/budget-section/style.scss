@@ -1,0 +1,28 @@
+@import "../../util/vars.scss";
+
+.budget-section {
+  color: rgba(255,255,255,.8);
+  margin: 20px;
+  padding: 5px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  .section {
+    width: 50%;
+    float: left;
+    font-size: 1.5em;
+    &:before {
+      color: rgba(255,255,255,.5);
+      display: block;
+      content: attr(title);
+      text-transform: uppercase;
+      font-size: 0.5em;
+    }
+    &.red {
+      color: #d81e1e;
+    }
+  }
+}
