@@ -1,7 +1,59 @@
  .navbar{
+	 background-color: #454545;
+		position: fixed;
+		width: 100%;
+
+		nav {
+			display: flex;
+		}
+
      ul {
-     display: flex;
-     background-color: #000;
-     height: 50px;
- }
+			text-align: right;
+			width: 80%;
+			height: 50px;
+			margin: 0;
+			line-height: 28px;
+			padding-right: 20px;
+
+			li{
+				font-size: 13px;
+			}
+		}
+		
+    a {
+			color: #fff;
+			transition: 1s ease-in-out color;
+			text-decoration: none;
+			
+			&:hover{
+				color: #4ECDC4;
+				transition: 1s ease-in-out color;
+			}
+		 }
+		 
+		 .stukent-logo{
+			 width: 20%;
+			 padding-left: 20px;
+			 
+			img {
+				margin-top: 15px;
+				height: 20px;
+			}
+		 }
+		 
+
+}
+
+@media only screen and (max-width: 560px) {
+.navbar {
+			nav{
+				ul {
+					display: none;
+				}
+			}
+			.stukent-logo{
+				height: 50px;
+			}
+	}
+
 }

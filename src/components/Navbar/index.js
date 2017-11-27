@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './style.scss';
 import styled from 'styled-components';
+import Stukent from '../../stukent.svg';
 
 
 class Navbar extends Component {
@@ -12,19 +13,23 @@ class Navbar extends Component {
       padding: 0.2rem 0;
       margin: 0.5rem 0rem;
       width: 8rem;
-      color: #62616C;
+      color: #ffffff;
     `
 
 
       return (
         <div className="navbar">
           <nav>
-              <ul>
-              <Item>item</Item>
-              <Item>item</Item>
-              <Item>item</Item>
 
-              </ul>
+            <div className="stukent-logo">
+              <img src={Stukent} />
+            </div>
+            <ul>
+              <Item><a href="#">Typeface</a></Item>
+              <Item><a href="#">Alerts</a></Item>
+              <Item><a href="#">Layouts</a></Item>
+            </ul>
+
           </nav>
         </div>
       );

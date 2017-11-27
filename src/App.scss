@@ -1,9 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+$duller: #93B7BE;
+$title:  #4ECDC4;
+
+body {
+  margin: 0;
+  color: #201F1E;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+h2{
+  font-size: 2.5em;
+}
+h3{
+  font-size: 1.5em;
+}
+h4{
+  font-size: 1em;
+}
+
 
 .main {
   font-family: 'Open Sans', sans-serif;  
 }
 
-* {
-  background-color: #000;
+.main-title {
+  font-size: 5.5em;
+  font-family: 'Lora', serif;
+  padding-left: 10px;
+  margin: 100px 0px 20px 0px;
+  border-left: $title 5px solid;
 }
+
