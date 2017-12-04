@@ -1,0 +1,171 @@
+.font-section {
+    margin-top: 50px;
+    h2{
+        margin-bottom: 0px;
+    }
+}
+
+.intro-header{
+    margin-bottom: 100px;
+}
+
+.typeface-group{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.lora, .sans {
+    width: 50%;
+}
+
+.lora, .pro {
+    padding-right: 25px;
+}
+
+.sans, .social {
+    border-left: 1px #ccc solid;
+    padding-left: 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', "Book Antiqua", serif;
+    font-weight: 400;
+    margin: 13px 0px;
+  }
+
+h1 {
+    font-size: 2.5em;
+}
+h2 {
+    font-size: 2em;
+}
+
+strong {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #4ECDC4;
+    font-weight: 400;
+
+    &:hover {
+        color: #40A8A1
+    }
+}
+
+.light {
+    font-weight: 300;
+}
+
+.reg {
+    font-weight: 400;
+}
+
+.emp {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.under {
+    text-decoration: underline;
+}
+
+.font-weights {
+    list-style: none;
+    line-height: 30px;
+    font-size: 1.2em;
+}
+
+.sub-title{
+    font-size: 18px;
+}
+
+.header-sizes {
+    list-style: none;
+}
+
+.font-styles, .font-styles-bolder, .font-styles-italic {
+    font-family: 'Lora', serif;
+    font-size: 40px;
+}
+
+.font-styles-bolder {
+    font-weight: 700;
+}
+
+.font-styles-italic {
+    font-style: italic;
+}
+
+.explorations {
+    margin-top: 70px;
+}
+
+.font-opt, .degradations {
+    width: 50%;
+}
+
+.font-exp {
+    list-style: none;
+    font-size: 25px;
+    line-height: 45px;
+}
+
+.degradations {
+    border-left: #ccc 1px solid;
+    padding-left: 20px;
+
+    ul {
+        list-style: none;
+    }
+}
+
+.wrapper {
+    display: flex;
+}
+
+.editor{
+    background-color: #0F1716;
+    width: 70%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: #F0544F;
+
+    span {
+        color: #95BF74;
+    }
+}
+
+
+@media only screen and (max-width: 1135px) {
+        .typeface-group, .wrapper {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+        
+        .main-title {
+            font-size: 3.5em;
+        }
+        .font-section{
+            justify-content: center;
+        }
+
+        .lora, .sans, .font-opt, .degradations {
+            width: 100%;
+            border: none;
+        }
+
+        .lora {
+            padding-right: 0;
+        }
+
+    
+    }

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './style.scss';
 import styled from 'styled-components';
 import Stukent from '../../stukent.svg';
+import {Link} from 'react-router-dom';
 
 
 class Navbar extends Component {
@@ -25,7 +26,7 @@ class Navbar extends Component {
               <img src={Stukent} />
             </div>
             <ul>
-              <Item><a href="#">Typeface</a></Item>
+              <Item><Link to="/typefaces">Typefaces</Link></Item>
               <Item><a href="#">Alerts</a></Item>
               <Item><a href="#">Layouts</a></Item>
             </ul>
