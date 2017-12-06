@@ -127,3 +127,52 @@
         margin-bottom: 50px;
     }
 }
+
+.notifications{
+    margin-top: 50px;
+}
+
+.demo-bar{
+    height: 40px;
+    background-color:$mp-sidebar;
+    width: 70%;
+    margin: 80px auto;
+    display: flex;
+
+    .notification{
+        height: 25px;
+        width: 25px;
+        border-radius: 15px;
+        position: relative;
+        top: -11px;
+        margin-left: 50px;
+        border: 1px #fff solid;
+    }
+
+    .bad-note{
+        background-color: $warning-red;
+        animation: bounce .5s ease-in-out infinite alternate;
+        span{
+            color: #fff;
+            position: relative;
+            left: 10px;
+            font-size: 20px;
+            top: -1px;
+            font-family: 'Lora';
+        }
+    }
+
+    .good-note{
+        background-color: $alert-green;
+    }
+
+    .warn-note{
+        background-color: $alert-yellow;
+    }
+
+    @keyframes bounce {
+        from {top: -11px;}
+        to {top: -18px;}
+    }
+    
+}

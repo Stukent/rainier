@@ -62,7 +62,7 @@ class Alertscreen extends Component {
 }
                     `}
                 </pre>
-                </div>
+                    </div>
                </div>
 
            </div>
@@ -70,7 +70,7 @@ class Alertscreen extends Component {
            <div className="interactions">
                 <h2>Interactions</h2>
                 <p>How your components interact with the users is a big topic that should not be taken lightly. When you want to meet someone, you greet them in a manner that will attract them to you. The same goes for components on the web.
-                    Here are some examples of interaction.
+                    Here are some examples of interaction. <strong>Hint: hover over them.</strong>
                 </p>
 
                 <div className="alert-interaction">
@@ -98,7 +98,22 @@ class Alertscreen extends Component {
 
            </div>
         
-            
+            <div className="notifications">
+                
+                <h2>Notifications</h2>
+                <p>Depending on the style of our navigation we will have different notification buttons, these are pretty straight forward.</p>
+                <p>Just think about the notifications you get on your phone, you see the red bubble on top of your application, and when it is an alert it pops up or slides down from the top of your screen.</p>
+
+                <div className="demo-bar">
+
+                    <div className="notification bad-note"><span>!</span></div>
+                    <div className="notification good-note"></div>
+                    <div className="notification warn-note"></div>
+                
+                </div>
+                <p>Color guidelines stay the same. Colors bring about meaning, meanings bring emotion. <strong>Emotion brings forth design!</strong> </p>
+
+            </div>
 
 
         </div>
