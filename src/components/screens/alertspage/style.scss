@@ -1,0 +1,129 @@
+@import '../colors/style.scss';
+
+.rudolph{
+    color: $warning-red;
+
+}
+
+.greeny{
+    color: $alert-green;
+}
+
+.bluey{
+    color: $alert-blue;
+}
+
+.jelly {
+    color: $alert-yellow;
+}
+
+.alert-colors{
+    display: flex;
+    margin-top: 40px;
+}
+
+.structure, .interactions {
+    margin-top: 50px;
+}
+
+.green-alert, .red-alert, .blue-alert, .yellow-alert {
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.green-alert {
+    background-color: $alert-green;
+}
+
+.red-alert {
+    background-color: $warning-red;
+}
+
+.blue-alert {
+    background-color: $alert-blue;
+}
+
+.yellow-alert {
+    background-color: $alert-yellow;
+}
+
+.alert-interaction{
+    display: flex;
+    height: 430px;
+
+    .green-alert, .red-alert, .blue-alert, .yellow-alert {
+        width: 250px;
+        height: 20px;
+        margin: 10px;
+        align-self: flex-end;
+        transition: 1s height ease;
+    }
+
+    .green-alert:hover{
+        height: 400px;
+        transition: 1s height ease-in-out;
+    }
+    
+    .red-alert:hover{
+        height: 400px;
+        transition: 1s height ease-in-out;
+    }
+
+    .blue-alert:hover{
+        height: 400px;
+        transition: 1s height ease-in-out;
+    }
+
+    .yellow-alert:hover{
+        height: 400px;
+        transition: 1s height ease-in-out;
+    }
+}
+
+.alert-faces {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    .call-action {
+        font-weight: 700;
+        font-size: 30px;
+        color: #fff;
+    }
+
+    p {
+        color: #fff;
+        font-size: 12px;
+    }
+
+    .red-alert, .green-alert{
+        img{
+            display: block;
+            margin: 0 auto;
+            margin-top: 30px;
+            height: 110px;
+        }
+    }
+
+    .red-alert{
+        margin-right: 30px;
+    }
+}
+
+.editor{
+    background-color: #0F1716;
+    width: 55%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    color: #95BF74;
+}
+
+.example-code{
+    margin-top: 50px;
+
+    p{
+        margin-bottom: 50px;
+    }
+}
