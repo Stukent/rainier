@@ -1,0 +1,204 @@
+$ms-sidebar: #181F25;
+$ms-logo: #242F38;
+$ms-button-accent: #2F363C;
+$ms-green: #257E37;
+$ms-light-green: #30A648;
+
+$sm-facebook: #3B5998;
+$sm-linkedin: #0077B5;
+$sm-twitter: #55ACEE;
+$sm-pinterest: #BD081C;
+$sm-youtube: #CD201F;
+$sm-insta: #E1306C;
+
+$mp-sidebar: #192327;
+$mp-logo: #243339;
+$mp-header: #5B7992;
+$mp-hover-blue: #CDD8DF;
+$mp-light-blue: #EFF2F4;
+
+$mp-table: #192327;
+$mp-table-dropdown: #324A52;
+$mp-dropdown: #EFF3F5;
+$mp-table-header: #F5F5F5;
+
+$mp-bodycopy: #222222;
+$mp-brown: #846D4F;
+$mp-red: #BE4636;
+$mp-green: #257D57;
+$mp-orange: #E07615;
+$mp-pruple: #6D58D8;
+
+$mp-yellow: #F4BF4D;
+$mp-bright-red: #F04124;
+$mp-light-green: #43AC6A;
+
+
+
+
+.ms-colors, .mp-colors {
+    margin-top: 100px;
+}
+
+.social-section, .pro-table, .pro-alerts{
+    margin: 15px 0px;
+}
+
+.social-section, .nav-section, .pro-nav, .pro-table, .pro-text, .pro-alerts{
+
+    .cat-name {
+        font-size: 15px;
+        font-weight: bolder;
+    }
+}
+
+
+.color-grid{
+    margin-top: 15px;
+    display:flex;
+
+    .color-box{
+        height: 70px;
+        width: 200px;
+        color: rgba(255, 255, 255, .5);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        span {  
+            font-size: 18px;   
+            display: block;
+            opacity: 0;
+            transition: opacity .5s ease-in;
+        }
+        
+        }
+        .color-box:hover{
+            span{
+                opacity: 1;
+                transition: opacity .5s ease-in;
+            }
+    }
+
+    .sidebar{
+        background-color: $ms-sidebar;
+    }
+    
+
+    .logo-wrapper{
+        background-color: $ms-logo;
+    }
+
+    .button {
+        background-color: $ms-button-accent;
+    }
+
+    .clicked-button {
+        background-color: $ms-green;
+    }
+
+    .sim-button {
+        background-color: $ms-light-green;
+    }
+
+    .facebook{
+        background-color: $sm-facebook;
+    }
+
+    .twitter {
+        background-color: $sm-linkedin;
+    }
+
+    .linkedin {
+        background-color: $sm-twitter;
+    }
+
+    .instagram {
+        background-color: $sm-insta;
+    }
+
+    .pinterest {
+        background-color: $sm-pinterest;
+    }
+    
+    .youtube{
+        background-color: $sm-youtube;
+    }
+
+    .sidebar-pro{
+        background-color: $mp-sidebar;
+    }
+
+    .logo-pro{
+        background-color: $mp-logo;
+    }
+
+    .pro-head {
+        background-color: $mp-header;
+    }
+
+    .nav-act {
+        background-color: $mp-hover-blue;
+    }
+
+    .topbar {
+        background-color: $mp-light-blue;
+    }
+
+    .table-dropdown {
+        background-color: $mp-table-dropdown;
+    }
+
+    .pro-text {
+        background-color: $mp-bodycopy;
+    }
+
+    .table-color{
+        background-color: $mp-table;
+    }
+
+    .table-head {
+        background-color: $mp-table-header;
+    }
+
+    .dropdown {
+        background-color: $mp-dropdown;
+    }
+
+    .dec-one{
+        background-color: $mp-brown;
+    }
+
+    .dec-two {
+        background-color: $mp-red;
+    }
+
+    .dec-three {
+        background-color: $mp-green;
+    }
+
+    .dec-four {
+        background-color: $mp-orange;
+    }
+
+    .dec-five {
+        background-color: $mp-pruple;
+    }
+
+    .pro-warn {
+        background-color: $mp-yellow;
+    }
+
+    .pro-alert{
+        background-color: $mp-bright-red;
+    }
+
+    .red-light {
+        background-color: $mp-red;
+    }
+
+    .green-light {
+        background-color: $mp-light-green;
+    }
+}

@@ -23,11 +23,11 @@ class Navbar extends Component {
           <nav>
 
             <div className="stukent-logo">
-              <img src={Stukent} />
+              <Link to="/"><img src={Stukent} /></Link>
             </div>
             <ul>
               <Item><Link to="/typefaces">Typefaces</Link></Item>
-              <Item><a href="#">Alerts</a></Item>
+              <Item><Link to="/colors">Colors</Link></Item>
               <Item><a href="#">Layouts</a></Item>
             </ul>
 
