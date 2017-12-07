@@ -28,7 +28,7 @@ class Navbar extends Component {
             <ul>
               <Item><Link to="/typefaces">Typefaces</Link></Item>
               <Item><Link to="/colors">Colors</Link></Item>
-              <Item><a href="#">Layouts</a></Item>
+              <Item><Link to="/alerts">Alerts</Link></Item>
             </ul>
 
           </nav>
