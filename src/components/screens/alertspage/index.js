@@ -32,37 +32,34 @@ class Alertscreen extends Component {
                 <p>The alerts are divided into colors. <strong className="rudolph">Red</strong> for errors, <strong className="greeny">green</strong> for accomplishements, <strong className="jelly">yellow</strong> for warnings, and <strong className="bluey">blue</strong> for hints.</p>
 
                  <div className="alert-colors">
-                 <div className="red-alert"></div>
+                    <div className="red-alert"></div>
                     <div className="green-alert"></div>
                     <div className="yellow-alert"></div>
-                    <div className="blue-alert"></div>
-                    
+                    <div className="blue-alert"></div>  
                 </div>
+                
                 <div className="example-code">
                     <p>All colors found within our color <strong>SCSS file</strong>.</p>
                     <div className="editor" >
-                
-                    <pre>
-                        
-                {`
-.green-alert {
-    background-color: $alert-green;
-    }
+                        <pre>
+                         {`
+                        .green-alert {
+                            background-color: $alert-green;
+                            }
 
-.red-alert {
-    background-color: $warning-red;
-}
+                        .red-alert {
+                            background-color: $warning-red;
+                        }
 
-.blue-alert {
-    background-color: $alert-blue;
-}
+                        .blue-alert {
+                            background-color: $alert-blue;
+                        }
 
-.yellow-alert {
-    background-color: $alert-yellow;
-}
-                    `}
-                </pre>
-                    </div>
+                        .yellow-alert {
+                            background-color: $alert-yellow;
+                        }`}
+                        </pre>
+                     </div>
                </div>
 
            </div>
@@ -74,11 +71,10 @@ class Alertscreen extends Component {
                 </p>
 
                 <div className="alert-interaction">
-                 <div className="red-alert"></div>
+                    <div className="red-alert"></div>
                     <div className="green-alert"></div>
                     <div className="yellow-alert"></div>
                     <div className="blue-alert"></div>
-                    
                 </div>
 
                 <p>...Something that also helps with user friendliness is adding a face to a message.</p>
@@ -90,9 +86,9 @@ class Alertscreen extends Component {
                        <p>It seems like something's off...</p>
                     </div>
                     <div className="green-alert">
-                     <img src={HappyLeia}/>
-                     <span className="call-action">Good Job!</span>
-                     <p>You did great! Let's review...</p>
+                        <img src={HappyLeia}/>
+                        <span className="call-action">Good Job!</span>
+                        <p>You did great! Let's review...</p>
                     </div>
                </div>
 
@@ -105,11 +101,9 @@ class Alertscreen extends Component {
                 <p>Just think about the notifications you get on your phone, you see the red bubble on top of your application, and when it is an alert it pops up or slides down from the top of your screen.</p>
 
                 <div className="demo-bar">
-
                     <div className="notification bad-note"><span>!</span></div>
                     <div className="notification good-note"></div>
                     <div className="notification warn-note"></div>
-                
                 </div>
                 <p>Color guidelines stay the same. Colors bring about meaning, meanings bring emotion. <strong>Emotion brings forth design!</strong> </p>
 
