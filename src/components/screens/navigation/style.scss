@@ -1,0 +1,103 @@
+@import '../colors/style.scss';
+
+
+.ui-ex{
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    display: block;
+}
+
+.sizes{
+    margin-top: 80px;
+}
+
+.slider-wrapper{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    animation: slider 5s infinite ease-in-out alternate;
+    background-color: #D6EEFF;
+    border: 7px #ccc solid;
+}
+
+@keyframes slider {
+    from {
+        width: 250px;
+        height: 180px;
+    }
+
+    to {
+        width: 50px;
+        height: 100px;
+    }
+}
+
+.nav-hierachy{
+    margin-top: 80px;
+
+    .side, .short, .phone {
+        margin: 50px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .nav-text {
+            width: 60%;
+            margin: 0px 20px;
+
+            strong{
+                font-size: 18px;
+            }
+
+            img{
+                height: 100px;
+            }
+
+            p {
+                margin-top: 0;
+                line-height: 30px;
+            }
+        }
+    }
+
+    .queried-bar, .queried-bar-long{
+        margin: 0px 20px;
+    }
+
+    .queried-bar {
+        background-color: $ms-sidebar;
+        height: 40px;
+        width: 300px;
+        display: flex;
+        justify-content: flex-end;
+
+        .logobox{
+            background-color: $ms-logo;
+            height: inherit;
+            width: 55px;
+        }
+
+    }
+    
+    .queried-bar-long{
+        background-color: $ms-sidebar;
+        height: 500px;
+        width: 70px;
+
+        .logobox{
+            background-color: $ms-logo;
+            height: 60px;
+            width: inherit;
+        }
+    }
+    
+}
+
+
+
+

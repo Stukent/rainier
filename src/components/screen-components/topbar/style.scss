@@ -1,0 +1,33 @@
+@import '../../screens/colors/style.scss';
+
+
+.topbar {
+    margin-bottom: 50px;
+    width: 100%;
+    height: 40px;
+    background-color: $ms-sidebar;
+    display: flex;
+
+    .logobox{
+        background-color: $ms-logo;
+        height: inherit;
+        width: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .note{
+        margin-left: 10px;
+    }
+
+    .logo{
+        height: 19px;
+        margin-left: 82%;
+        margin-top: 10px;
+    }
+}
+
+// .green-alert {
+//     background-color: $alert-green;
+// }

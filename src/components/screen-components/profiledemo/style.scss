@@ -1,0 +1,20 @@
+@import '../../screens/colors/style.scss';
+
+
+.profile{
+    height: 25px;
+    width: 100px;
+    margin-left: 83%;
+    margin-top: 7px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+    .avy{
+        height: 20px;
+        width: 20px;
+        background-color: #FF5D73;
+        margin-right: 2px;
+    }
+}

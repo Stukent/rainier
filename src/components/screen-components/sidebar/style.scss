@@ -1,0 +1,15 @@
+@import '../../screens/colors/style.scss';
+
+
+.sidebar {
+    background-color: $ms-sidebar;
+    height: 500px;
+    width: 240px;
+    margin: 0 20px;
+
+    .logobox{
+        background-color: $ms-logo;
+        height: 100px;
+        width: inherit;
+    }
+}

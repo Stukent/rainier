@@ -1,0 +1,17 @@
+@import '../../screens/colors/style.scss';
+
+
+.bottombar {
+    margin-bottom: 50px;
+    width: 100%;
+    height: 40px;
+    background-color: $ms-sidebar;
+    display: flex;
+    justify-content: flex-start;
+
+    .logo{
+        height: 22px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+}

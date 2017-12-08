@@ -29,6 +29,7 @@ class Navbar extends Component {
               <Item><Link to="/typefaces">Typefaces</Link></Item>
               <Item><Link to="/colors">Colors</Link></Item>
               <Item><Link to="/alerts">Alerts</Link></Item>
+              <Item><Link to="/navigation">Navigation</Link></Item>
             </ul>
 
           </nav>
