@@ -6,6 +6,7 @@ import Typescreen from './components/screens/typefaces';
 import Colorspage from './components/screens/colors';
 import Alertscreen from './components/screens/alerts';
 import NaviScreen from './components/screens/navigation';
+import Graphics from './components/screens/graphics';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
   
 
@@ -22,6 +23,7 @@ class App extends Component {
                     <Route path="/colors" component={Colorspage} />
                     <Route path="/alerts" component={Alertscreen} />
                     <Route path="/navigation" component={NaviScreen} />
+                    <Route path="/graphics" component={Graphics} />
                 </Switch>
             </Layout>
         </Router>

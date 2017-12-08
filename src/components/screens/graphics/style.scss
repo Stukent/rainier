@@ -1,0 +1,121 @@
+.logos{
+    margin-top: 100px;   
+}
+.main-logos{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.white-logos{
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.stu, .pro, .so {
+    margin: 5px 15px;
+    display: inline-block;
+}
+
+.stu{
+    height: 50px;
+}
+.pro{
+    height: 75px;
+}
+
+.so{
+    height: 62px;
+}
+
+.errors{
+    display: flex;
+    justify-content: center;
+    img{
+        height: 300px;
+        margin: 10px;
+    }
+
+}
+
+.animations {
+    margin-top: 100px;
+
+    .errors {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+.loaders{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        margin: 15px;
+    }
+}
+
+.email {
+    margin-top: 80px;
+    
+}
+
+.email-img{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+        img{
+            margin: 10px;
+        }
+
+    .halfwidth{
+        margin: 20px auto;
+        text-align: center;
+
+        img{
+            height: 200px;
+            margin: 5px;
+        }
+    }
+}
+
+.largebanners{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.buhi{
+    margin-top: 100px;
+}
+
+.buhi-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.sim-img{
+    img{
+        height: 110px;
+    }
+    
+}
+
+.avys{
+    img{
+        height: 100px;
+        margin: 15px;
+    }
+}
+
+.icons{
+    margin: 100px 0px;
+}
