@@ -90,7 +90,7 @@ textarea{
 
     &:active{
         box-shadow: 0px 0px 6px 1px rgba(148,148,148,1);
-        background-color: $ms-green;
+        background-color: $ms-light-green;
         
     }
 
@@ -98,17 +98,17 @@ textarea{
 
 .no-form { 
     background-color: #ffffff;
-    color: $mp-table-dropdown;
+    color: $mp-blue;
 
 
     &:hover{
         box-shadow: 0px 0px 6px 1px rgba(224,224,224,1);
-        background-color: $mp-table-dropdown;
+        background-color: $mp-blue;
         color: #ffffff;
     }
 
     &:active{
-        background-color: rgb(24, 37, 41);
+        background-color: $mp-dark-blue;
         box-shadow: 0px 0px 6px 1px rgba(148,148,148,1);
         
     }

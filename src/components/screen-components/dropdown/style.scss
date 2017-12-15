@@ -6,7 +6,7 @@
     font-family: 'Open Sans';
     padding: 6px 0px;
     transition: background-color .2s ease-in;
-    color: $mp-table-dropdown;
+    color: $mp-dark-blue;
 
 }
 .dropdowns{
@@ -47,7 +47,7 @@
 
 .dropdown:hover .dropdown-content{
     display: block;
-    border-bottom: 4px $mp-table-dropdown solid;
+    border-bottom: 4px $mp-dark-blue solid;
 }
 
 .down {
@@ -58,6 +58,6 @@
     height: 0;
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
-    border-top: 9px solid $mp-table-dropdown;
+    border-top: 9px solid $mp-dark-blue;
   }
   

@@ -7,7 +7,7 @@
     flex-direction: column;
 }
 .accordion {
-    background-color: $mp-header;
+    background-color: $mp-blue;
     color: #ffffff;
     margin: 5px;
     cursor: pointer;
@@ -21,7 +21,7 @@
 }
 
 .active, .accordion:hover {
-    background-color: $mp-table-dropdown; 
+    background-color: $mp-dark-blue; 
 }
 
 .panel {
