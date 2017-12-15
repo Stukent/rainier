@@ -28,216 +28,144 @@ class Colorspage extends Component {
             <div className="section-wrapper">
 
                 <div className="ms-colors">
-                    <h1>Mimic Social</h1>
-                    <div className="co-wrapper">
-                    
-                        <div className="nav-section">
-                            <span className="cat-name">Navigation Colors:</span>
-
-                            <div className="color-grid">
-                                <div className="color-box sidebar">
-                                    <span>Sidebar</span>
-                                    <span>#181F25</span>
-                                </div>
-
-                                <div className="color-box logo-wrapper">
-                                    <span>Logo</span>
-                                    <span>#242F38</span>
-                                </div>
-
-                                <div className="color-box button">
-                                    <span>Button</span>
-                                    <span>#2F363C</span>
-                                </div>
-
-                                <div className="color-box clicked-button">
-                                    <span>Clicked Button</span>
-                                    <span>#257E37</span>
-                                </div>
-
-                                <div className="color-box sim-button">
-                                    <span>Sim Button</span>
-                                    <span>#30A648</span>
-                                </div>
+                    <h1>Mimic Social Colors</h1>
+                    <p>We have narrowed down colors for <strong>Mimic Social</strong> down to three main colors.</p>
+                    <div className="color-wrapper">
+                        <div className="main-color-ms color-info">
+                            <span class="sub-header">
+                                Main color
+                            </span>
+                            <p><em><strong>Usage:</strong></em> This green hue is to be used on the navigation bar, or sidebar if you prefer, as complementary color. That is to be used on main headers, buttons, and links.</p>
+                            <div className="color-box ms-green">
+                                <span className="color-code">#30a648</span>
                             </div>
 
                         </div>
 
-                        <div className="social-section">
-                            <span className="cat-name">Social Media Colors:</span>
-
-                            <div className="color-grid">
-                                <div className="color-box facebook">
-                                    <span>Facebook</span>
-                                    <span>#3B5998</span>
-                                </div>
-
-                                <div className="color-box linkedin">
-                                    <span>LinkedIn</span>
-                                    <span>#0077B5</span>
-                                </div>
-
-                                <div className="color-box twitter">
-                                    <span>Twitter</span>
-                                    <span>#55ACEE</span>
-                                </div>
-
-                                <div className="color-box pinterest">
-                                    <span>Pinterest</span>
-                                    <span>#BD081C</span>
-                                </div>
-
-                                <div className="color-box youtube">
-                                    <span>Youtube</span>
-                                    <span>#CD201F</span>
-                                </div>
-
-                                <div className="color-box instagram">
-                                    <span>Instagram</span>
-                                    <span>#E1306C</span>
-                                </div>
-
-                            </div>
+                        <div className="dark-color-ms color-info">
+                            <span class="sub-header">
+                                    Main color's shadow
+                            </span>
+                            <p><em><strong>Usage:</strong></em> This darker tone of green is used in Mimic Social as a sub-header colors for after main header (meaning h1's) in order to brief someone on a next reading section. It is also to be used for link effects, hovers, etc.</p>
+                            <div className="color-box dark-ms-green">
+                                <span className="color-code">#257E37</span>
+                            </div>    
                         </div>
-                    
+
+                        <div className="light-color-ms color-info">
+                            <span class="sub-header">
+                                    Lighter Green
+                            </span>
+                            <p><em><strong>Usage:</strong></em> This one lighter green is to be used also for effects on either lights, buttons, and/or anyother way.</p>
+                            <div className="color-box lighter-ms-green">
+                                <span className="color-code">#97c774</span>
+                            </div>    
+                        </div>
+                            
                     </div>
+
+                       
                 </div>
+                    
+            </div>
 
                 <div className="mp-colors">
                     <h1>Mimic Pro</h1>
-
-                    <div className="co-wrapper">
-                        <div className="pro-nav">
-                            <span className="cat-name">Navigation Colors:</span>
-                            <div className="color-grid">
-                                <div className="color-box sidebar-pro">
-                                    <span>Sidebar</span>
-                                    <span>#192327</span>
-                                </div>
-
-                                <div className="color-box logo-pro">
-                                    <span>Logo</span>
-                                    <span>#243339</span>
-                                </div>
-
-                                <div className="color-box pro-head">
-                                    <span>Headers</span>
-                                    <span>#5B7992</span>
-                                </div>
-
-                                <div className="color-box nav-act">
-                                    <span>Hover Topbar</span>
-                                    <span>#CDD8DF</span>
-                                </div>
-
-                                <div className="color-box topbar">
-                                    <span>Topbar</span>
-                                    <span>#EFF2F4</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="pro-table">
-                            <span className="cat-name">Table Colors:</span>
-                            <div className="color-grid">
-                                <div className="color-box table-color">
-                                    <span>Table</span>
-                                    <span>#192327</span>
-                                </div>
-
-                                <div className="color-box table-dropdown">
-                                    <span>Table Dropdown</span>
-                                    <span>#324A52</span>
-                                </div>
-
-                                <div className="color-box pro-head">
-                                    <span>Hover Tabs</span>
-                                    <span>#5B7992</span>
-                                </div>
-
-                                <div className="color-box dropdown">
-                                <span>Dropdown</span>
-                                <span>#EFF3F5</span>
-                                </div>
-
-                                <div className="color-box table-head">
-                                    <span>Table Head</span>
-                                    <span>#F5F5F5</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="pro-text">
-                            <span className="cat-name">Text Colors:</span>
-                            <div className="color-grid">
-                                <div className="color-box pro-text">
-                                    <span>Bodycopy</span>
-                                    <span>#222222</span>
-                                </div>
-
-
-                                <div className="color-box dec-one">
-                                    <span>Decision</span>
-                                    <span>#846D4F</span>
-                                </div>
-
-                                <div className="color-box dec-two">
-                                    <span>Decision</span>
-                                    <span>#BE4636</span>
-                                </div>
-
-                                <div className="color-box dec-three">
-                                    <span>Decision</span>
-                                    <span>#257D57</span>
-                                </div>
-
-                                <div className="color-box dec-four">
-                                    <span>Decision</span>
-                                    <span>#E07615</span>
-                                </div>
-
-                                <div className="color-box dec-five">
-                                    <span>Decision</span>
-                                    <span>#6D58D8</span>
-                                </div>
-                            </div>
-
-                            
-                        </div>
-
-                        <div className="pro-alerts">
-                            <span className="cat-name">Alert Colors:</span>
-                            <div className="color-grid">
-                                <div className="color-box pro-warn">
-                                    <span>Warning</span>
-                                    <span>#F4BF4D</span>
-                                </div>
-
-                                <div className="color-box pro-alert">
-                                    <span>Alert</span>
-                                    <span>#F04124</span>
-                                </div>
-
-                                <div className="color-box red-light">
-                                    <span>"Red Light"</span>
-                                    <span>#BE4636</span>
-                                </div>
-
-                                <div className="color-box green-light">
-                                    <span>"GreenLight"</span>
-                                    <span>#43AC6A</span>
-                                </div>
-
-                            </div>
-
-                            
+                    <p>Colors for <strong>Mimic Pro</strong> are analagous hues of blue. This blue is not to be confused with <strong>Home/Donaldson's</strong> blue, for that one is brighter than Pro's.</p>
+                    <div className="color-wrapper">
+                        <div className="light-color-ms color-info">
+                            <span class="sub-header">
+                                    Main Color
+                            </span>
+                            <p><em><strong>Usage:</strong></em> This hue is to be used on the navigation bar, or sidebar, in order to bring complementary harmony to the application's style. This is also to be used for main headers (h1's) and links.</p>
+                            <div className="color-box mp-blue">
+                                <span className="color-code">#386fa4</span>
+                            </div>    
                         </div>
                         
+                        <div className="dark-color-ms color-info">
+                            <span class="sub-header">
+                                    Main color's shadow
+                            </span>
+                            <p><em><strong>Usage:</strong></em> Just like the darker hue on Mimic Social's blue above, we use this hue of blue in order to bring emphasis to certain things such as sub-header, hovers, buttons, etc.</p>
+                            <div className="color-box mp-dark-blue">
+                                <span className="color-code">#133c55</span>
+                            </div>    
+                        </div>
+
+                        <div className="lighter-color-ms color-info">
+                            <span class="sub-header">
+                                    Lighter Hues
+                            </span>
+                            <p><em><strong>Usage:</strong></em> For accentuation, these two hues are used for effects as well, whether they're found on links, buttons, or emphasis text these will work.</p>
+                            <div className="color-box mp-lighter-blue">
+                                <span className="color-code">#5899e2</span>
+                            </div>  
+                            <div className="color-box mp-lighter-blue-two">
+                                <span className="color-code">#85b4e9</span>
+                            </div>   
+                        </div>
                     </div>
                     
                 </div>
 
+                <div className="universal-colors">
+                    <h2>Universal Colors</h2>
+                    <p>This section is where all the universal hues will be for all simulations. Things that can be altered if consulted with before hand.</p>
+                    
+                    <div className="color-wrapper">
+                        <div className="sidebar-color-u color-info">
+                            <span class="sub-header">
+                                    Sidebar
+                            </span>
+                            <p><em><strong>Usage:</strong></em> This dark hue is for the use of navigation background colors. Whether it is a sidebar, top bar, or bottom bar this is the color to be displayed for them, as well as for tables within simulations. More specifically, Mimic Pro. </p>
+                            <div className="color-box sidebar-color">
+                                <span className="color-code"> #181f25</span>
+                            </div>  
+                        </div>
+
+                        <div className="logo-wrapper-color color-info">
+                            <span class="sub-header">
+                                   Logo Wrapper
+                            </span>
+                            <p><em><strong>Usage:</strong></em> A lighter hue than the color used for the navigation. This is to wrap the logo, if desire and just as seen on current version, in the navigation bar. It can also be used to hover on links <strong>ONLY</strong> if there is not another color such as the main colors for Mimic Pro and Mimic Social to be in use. </p>
+                            <div className="color-box logo-wrapper">
+                                <span className="color-code"> #242f38</span>
+                            </div>  
+                        </div>
+
+                        <div className="bodycopy-color color-info">
+                            <span class="sub-header">
+                                  Bodycopy
+                            </span>
+                            <p><em><strong>Usage:</strong></em> Pretty straight forward. This dark color is used for the main bodycopy of all simulations. </p>
+                            <div className="color-box bodycopy">
+                                <span className="color-code"> #222222</span>
+                            </div>  
+                        </div>
+
+                        <div className="warning-colors color-info">
+                            <span class="sub-header">
+                                  Warnings
+                            </span>
+                            <p><em><strong>Usage:</strong></em> just like a traffic light, we have our red, yellow, and green. So, pretty simple! Red is for error alerts, yellow is for warnings, and green for good alerts!  </p>
+                            <div className="color-box error-red">
+                                <span className="color-code"> #BE4636</span>
+                            </div>  
+                            <div className="color-box bright-error">
+                                <span className="color-code"> #F04124</span>
+                            </div>
+                            <div className="color-box warning-yellow">
+                                <span className="color-code"> #F4BF4D</span>
+                            </div> 
+                            <div className="color-box passing-green">
+                                <span className="color-code"> #43AC6A</span>
+                            </div> 
+                        </div>
+                    </div>
+        
                 </div>
+
         </div>
 
     );

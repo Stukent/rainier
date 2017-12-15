@@ -70,14 +70,14 @@
     }
 
     .queried-bar {
-        background-color: $ms-sidebar;
+        background-color: $sidebar;
         height: 40px;
         width: 300px;
         display: flex;
         justify-content: flex-end;
 
         .logobox{
-            background-color: $ms-logo;
+            background-color: $logo-wrapper;
             height: inherit;
             width: 55px;
         }
@@ -85,12 +85,12 @@
     }
     
     .queried-bar-long{
-        background-color: $ms-sidebar;
+        background-color: $sidebar;
         height: 500px;
         width: 70px;
 
         .logobox{
-            background-color: $ms-logo;
+            background-color: $logo-wrapper;
             height: 60px;
             width: inherit;
         }

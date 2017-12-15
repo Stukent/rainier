@@ -1,20 +1,20 @@
 @import '../colors/style.scss';
 
 .rudolph{
-    color: $warning-red;
+    color: $error-red;
 
 }
 
 .greeny{
-    color: $alert-green;
+    color: $passing-green;
 }
 
 .bluey{
-    color: $alert-blue;
+    color: $error-bright-red;
 }
 
 .jelly {
-    color: $alert-yellow;
+    color: $warning-yellow;
 }
 
 .alert-colors{
@@ -33,19 +33,19 @@
 }
 
 .green-alert {
-    background-color: $alert-green;
+    background-color: $passing-green;
 }
 
 .red-alert {
-    background-color: $warning-red;
+    background-color: $error-red;
 }
 
 .blue-alert {
-    background-color: $alert-blue;
+    background-color: $error-bright-red;
 }
 
 .yellow-alert {
-    background-color: $alert-yellow;
+    background-color: $warning-yellow;
 }
 
 .alert-interaction{
@@ -134,7 +134,7 @@
 
 .demo-bar{
     height: 40px;
-    background-color:$mp-sidebar;
+    background-color: $sidebar;
     width: 70%;
     margin: 80px auto;
     display: flex;
@@ -150,7 +150,7 @@
     }
 
     .bad-note{
-        background-color: $warning-red;
+        background-color: $error-red;
         animation: bounce .5s ease-in-out infinite alternate;
         span{
             color: #fff;
@@ -163,11 +163,11 @@
     }
 
     .good-note{
-        background-color: $alert-green;
+        background-color: $passing-green;
     }
 
     .warn-note{
-        background-color: $alert-yellow;
+        background-color: $warning-yellow;
     }
 
     @keyframes bounce {
