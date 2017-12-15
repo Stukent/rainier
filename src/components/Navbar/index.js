@@ -31,6 +31,7 @@ class Navbar extends Component {
               <Item><Link to="/alerts">Alerts</Link></Item>
               <Item><Link to="/navigation">Navigation</Link></Item>
               <Item><Link to="/graphics">Graphics</Link></Item>
+              <Item><Link to="/widgets">Widgets</Link></Item>
             </ul>
 
           </nav>

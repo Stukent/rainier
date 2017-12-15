@@ -1,0 +1,120 @@
+@import '../../screens/colors/style';
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    border: 1px #ccc solid;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+    box-shadow: 0px 0px 6px 1px rgba(224,224,224,1);
+
+    button{
+        margin: 10px;
+    }
+
+    .x-mark{
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        top: -7px;
+        cursor: pointer;
+    }
+}
+
+.button-wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header {
+    margin: 0;
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.form-label {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form-input {
+    font-size: 17px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: 0px;
+    height: 30px;
+    width: 250px;
+}
+
+textarea{
+    display: block;
+    margin-top: 6px;
+    border: 1px #ccc solid;
+    width: 98%;
+    height: 150px;
+    font-size: 17px;
+    font-family: 'Open Sans';
+    color: #222222;
+    padding: 5px;
+}
+
+.btn{
+    font-size: 15px;
+    width: 183px;
+    border-radius: 5px;
+    font-family: 'Open Sans';   
+    padding: 10px;
+    transition: background-color .2s ease-in;
+}
+
+
+.form-btn { 
+    background-color: $ms-light-green;
+    color: #ffffff;
+    margin: 10px 0px;
+    align-self: flex-end;
+
+
+    &:hover{
+        box-shadow: 0px 0px 6px 1px rgba(224,224,224,1);
+        color: #ffffff;
+    }
+
+    &:active{
+        box-shadow: 0px 0px 6px 1px rgba(148,148,148,1);
+        background-color: $ms-green;
+        
+    }
+
+}
+
+.no-form { 
+    background-color: #ffffff;
+    color: $mp-table-dropdown;
+
+
+    &:hover{
+        box-shadow: 0px 0px 6px 1px rgba(224,224,224,1);
+        background-color: $mp-table-dropdown;
+        color: #ffffff;
+    }
+
+    &:active{
+        background-color: rgb(24, 37, 41);
+        box-shadow: 0px 0px 6px 1px rgba(148,148,148,1);
+        
+    }
+
+    &:focus{
+        outline-style: none;
+
+    }
+}
