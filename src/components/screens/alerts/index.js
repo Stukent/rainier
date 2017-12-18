@@ -4,13 +4,17 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import Leia from './leia.png';
 import HappyLeia from './leia-happy.png';
+import Alert from '../../screen-components/alert';
 
   
-  
+const errormessage = "Lorem ipsum dolor sit amet, ornatus omnesque periculis cu nam. Quo id ridens nostro praesent."
 
 
 
 class Alertscreen extends Component {
+
+    
+
   render() {
 
     return (
@@ -31,11 +35,11 @@ class Alertscreen extends Component {
                 <h2>Structure</h2>
                 <p>The alerts are divided into colors. <strong className="rudolph">Red</strong> for errors, <strong className="greeny">green</strong> for accomplishements, <strong className="jelly">yellow</strong> for warnings, and <strong className="bluey">blue</strong> for hints.</p>
 
-                 <div className="alert-colors">
-                    <div className="red-alert"></div>
-                    <div className="green-alert"></div>
-                    <div className="yellow-alert"></div>
-                    <div className="blue-alert"></div>  
+                <div className="alert-wrapper">
+                    <Alert kind="green-alert" alert="Good Job!"> {errormessage} </Alert>
+                    <Alert kind="red-alert" alert="Oh no!"> {errormessage} </Alert>
+                    <Alert kind="warning-yellow" alert="Watch out!"> {errormessage} </Alert>
+                    <Alert kind="bright-error" alert="What Happened!?"> {errormessage} </Alert>
                 </div>
                 
                 <div className="example-code">
@@ -80,16 +84,8 @@ class Alertscreen extends Component {
                 <p>...Something that also helps with user friendliness is adding a face to a message.</p>
 
                <div className="alert-faces">
-                    <div className="red-alert">
-                       <img src={Leia}/>
-                       <span className="call-action">Oh no!</span>
-                       <p>It seems like something's off...</p>
-                    </div>
-                    <div className="green-alert">
-                        <img src={HappyLeia}/>
-                        <span className="call-action">Good Job!</span>
-                        <p>You did great! Let's review...</p>
-                    </div>
+                <Alert kind="green-alert" alert="Good Job!"> {errormessage} </Alert>
+                <Alert kind="red-alert" alert="Oh no!"> {errormessage} </Alert>
                </div>
 
            </div>
@@ -107,6 +103,16 @@ class Alertscreen extends Component {
                 </div>
                 <p>Color guidelines stay the same. Colors bring about meaning, meanings bring emotion. <strong>Emotion brings forth design!</strong> </p>
 
+            </div>
+
+            <div className="pop-ups-wrapper">
+                <h2>Pop-up Alerts</h2>
+                <p>Another choice for alerts is a pop up. Depending on the situation what these will do is have the main content with an overlay and then show the pop-up so that it stands-out.</p>
+
+                <div className="popup-alert">
+                    <
+                </div>
+            
             </div>
 
 

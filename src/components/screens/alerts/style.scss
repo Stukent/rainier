@@ -1,5 +1,10 @@
 @import '../colors/style.scss';
 
+
+.alert-wrapper{
+    display: flex;
+}
+
 .rudolph{
     color: $error-red;
 
@@ -129,6 +134,10 @@
 }
 
 .notifications{
+    margin-top: 50px;
+}
+
+.pop-ups-wrapper{
     margin-top: 50px;
 }
 
