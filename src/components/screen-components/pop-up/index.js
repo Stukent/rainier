@@ -18,7 +18,10 @@ class PopUp extends Component {
                     <h2>This is an alert!</h2>
                     <p>{popmessage}</p>
                 </div>
-                <button className="closer">Okay, got it</button>
+                <div className="button-dec-wrapper">
+                    <button className="cancel">Cancel</button>
+                    <button className="closer">Okay, got it</button>
+                </div>
             </div>
         </div>
       );

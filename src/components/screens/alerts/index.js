@@ -86,6 +86,7 @@ class Alertscreen extends Component {
                 <div className="popup-alert">
                     <PopUp />
                     <p>If you notice, there is not an "x" to help the user exit the pop-up, they have to click on the button in order to ex out. This neither adds or reduces steps to comply with the pop-up alert interruption.</p>
+                    <p><strong>You can only use one style of alert and notification, not mix and matching.</strong></p>
                 </div>
             
             </div>
