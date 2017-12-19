@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import './style.scss';
-import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import Leia from './leia.png';
-import HappyLeia from './leia-happy.png';
 import Alert from '../../screen-components/alert';
+import PopUp from '../../screen-components/pop-up';
 
   
 const errormessage = "Lorem ipsum dolor sit amet, ornatus omnesque periculis cu nam. Quo id ridens nostro praesent."
@@ -36,36 +34,12 @@ class Alertscreen extends Component {
                 <p>The alerts are divided into colors. <strong className="rudolph">Red</strong> for errors, <strong className="greeny">green</strong> for accomplishements, <strong className="jelly">yellow</strong> for warnings, and <strong className="bluey">blue</strong> for hints.</p>
 
                 <div className="alert-wrapper">
-                    <Alert kind="green-alert" alert="Good Job!"> {errormessage} </Alert>
+                    <Alert kind="green-alert" alert="Good job!"> {errormessage} </Alert>
                     <Alert kind="red-alert" alert="Oh no!"> {errormessage} </Alert>
                     <Alert kind="warning-yellow" alert="Watch out!"> {errormessage} </Alert>
-                    <Alert kind="bright-error" alert="What Happened!?"> {errormessage} </Alert>
+                    <Alert kind="bright-error" alert="What happened!?"> {errormessage} </Alert>
                 </div>
-                
-                <div className="example-code">
-                    <p>All colors found within our color <strong>SCSS file</strong>.</p>
-                    <div className="editor" >
-                        <pre>
-                         {`
-                        .green-alert {
-                            background-color: $alert-green;
-                            }
-
-                        .red-alert {
-                            background-color: $warning-red;
-                        }
-
-                        .blue-alert {
-                            background-color: $alert-blue;
-                        }
-
-                        .yellow-alert {
-                            background-color: $alert-yellow;
-                        }`}
-                        </pre>
-                     </div>
-               </div>
-
+            
            </div>
 
            <div className="interactions">
@@ -110,7 +84,8 @@ class Alertscreen extends Component {
                 <p>Another choice for alerts is a pop up. Depending on the situation what these will do is have the main content with an overlay and then show the pop-up so that it stands-out.</p>
 
                 <div className="popup-alert">
-                    <
+                    <PopUp />
+                    <p>If you notice, there is not an "x" to help the user exit the pop-up, they have to click on the button in order to ex out. This neither adds or reduces steps to comply with the pop-up alert interruption.</p>
                 </div>
             
             </div>

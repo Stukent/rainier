@@ -3,6 +3,7 @@
 
 .alert-wrapper{
     display: flex;
+    justify-content: center;
 }
 
 .rudolph{
@@ -56,6 +57,7 @@
 .alert-interaction{
     display: flex;
     height: 430px;
+    justify-content: center;
 
     .green-alert, .red-alert, .blue-alert, .yellow-alert {
         width: 250px;

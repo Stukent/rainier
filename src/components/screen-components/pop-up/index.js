@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './style.scss';
-import ewoke from './ewoke.svg';
 import PropTypes from 'prop-types';
+import ewoke from './ewoke.svg';
 
-
+const popmessage = "Lorem ipsum dolor sit amet, no putent quaeque quo, id eum mundi copiosae. Cibo delectus salutatus no sea. Ius option inciderint no, et vix duis appellantur. Omnis vivendo oporteat ei nec.";
 
 class PopUp extends Component {
      
@@ -12,10 +12,13 @@ class PopUp extends Component {
 
       return (
         <div className="popup-wrap">
-            <div className={this.props.kind}>
-                <img src={ewoke} />
-                <span className="call-action">{this.props.alert}</span>
-                <p>{this.props.children}</p>
+            <div className="pop-up">
+                <div className="popup-text-wrap">
+                    <img src={ewoke}/>
+                    <h2>This is an alert!</h2>
+                    <p>{popmessage}</p>
+                </div>
+                <button className="closer">Okay, got it</button>
             </div>
         </div>
       );
@@ -23,9 +26,5 @@ class PopUp extends Component {
     }
   }
   
-  export default Alert;
+  export default PopUp;
   
-PopUp.propTypes = {
-    kind: PropTypes.string,
-    alert: PropTypes.string
-  };
