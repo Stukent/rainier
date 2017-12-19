@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 import './style.scss';
-import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import Leia from './leia.png';
-import HappyLeia from './leia-happy.png';
+import Alert from '../../screen-components/alert';
+import PopUp from '../../screen-components/pop-up';
 
   
-  
+const errormessage = "Lorem ipsum dolor sit amet, ornatus omnesque periculis cu nam. Quo id ridens nostro praesent."
 
 
 
 class Alertscreen extends Component {
+
+    
+
   render() {
 
     return (
@@ -31,37 +33,13 @@ class Alertscreen extends Component {
                 <h2>Structure</h2>
                 <p>The alerts are divided into colors. <strong className="rudolph">Red</strong> for errors, <strong className="greeny">green</strong> for accomplishements, <strong className="jelly">yellow</strong> for warnings, and <strong className="bluey">blue</strong> for hints.</p>
 
-                 <div className="alert-colors">
-                    <div className="red-alert"></div>
-                    <div className="green-alert"></div>
-                    <div className="yellow-alert"></div>
-                    <div className="blue-alert"></div>  
+                <div className="alert-wrapper">
+                    <Alert kind="green-alert" alert="Good job!"> {errormessage} </Alert>
+                    <Alert kind="red-alert" alert="Oh no!"> {errormessage} </Alert>
+                    <Alert kind="warning-yellow" alert="Watch out!"> {errormessage} </Alert>
+                    <Alert kind="bright-error" alert="What happened!?"> {errormessage} </Alert>
                 </div>
-                
-                <div className="example-code">
-                    <p>All colors found within our color <strong>SCSS file</strong>.</p>
-                    <div className="editor" >
-                        <pre>
-                         {`
-                        .green-alert {
-                            background-color: $alert-green;
-                            }
-
-                        .red-alert {
-                            background-color: $warning-red;
-                        }
-
-                        .blue-alert {
-                            background-color: $alert-blue;
-                        }
-
-                        .yellow-alert {
-                            background-color: $alert-yellow;
-                        }`}
-                        </pre>
-                     </div>
-               </div>
-
+            
            </div>
 
            <div className="interactions">
@@ -80,16 +58,8 @@ class Alertscreen extends Component {
                 <p>...Something that also helps with user friendliness is adding a face to a message.</p>
 
                <div className="alert-faces">
-                    <div className="red-alert">
-                       <img src={Leia}/>
-                       <span className="call-action">Oh no!</span>
-                       <p>It seems like something's off...</p>
-                    </div>
-                    <div className="green-alert">
-                        <img src={HappyLeia}/>
-                        <span className="call-action">Good Job!</span>
-                        <p>You did great! Let's review...</p>
-                    </div>
+                <Alert kind="green-alert" alert="Good Job!"> {errormessage} </Alert>
+                <Alert kind="red-alert" alert="Oh no!"> {errormessage} </Alert>
                </div>
 
            </div>
@@ -107,6 +77,18 @@ class Alertscreen extends Component {
                 </div>
                 <p>Color guidelines stay the same. Colors bring about meaning, meanings bring emotion. <strong>Emotion brings forth design!</strong> </p>
 
+            </div>
+
+            <div className="pop-ups-wrapper">
+                <h2>Pop-up Alerts</h2>
+                <p>Another choice for alerts is a pop up. Depending on the situation what these will do is have the main content with an overlay and then show the pop-up so that it stands-out.</p>
+
+                <div className="popup-alert">
+                    <PopUp />
+                    <p>If you notice, there is not an "x" to help the user exit the pop-up, they have to click on the button in order to ex out. This neither adds or reduces steps to comply with the pop-up alert interruption.</p>
+                    <p><strong>You can only use one style of alert and notification, not mix and matching.</strong></p>
+                </div>
+            
             </div>
 
 

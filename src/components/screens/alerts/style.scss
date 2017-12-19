@@ -1,5 +1,11 @@
 @import '../colors/style.scss';
 
+
+.alert-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
 .rudolph{
     color: $error-red;
 
@@ -51,6 +57,7 @@
 .alert-interaction{
     display: flex;
     height: 430px;
+    justify-content: center;
 
     .green-alert, .red-alert, .blue-alert, .yellow-alert {
         width: 250px;
@@ -129,6 +136,10 @@
 }
 
 .notifications{
+    margin-top: 50px;
+}
+
+.pop-ups-wrapper{
     margin-top: 50px;
 }
 
