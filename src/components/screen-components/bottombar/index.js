@@ -1,21 +1,24 @@
 import React, { Component } from 'react';
 import './style.scss';
-import ms from './mimic-logo.svg';
+import hint from './hints.svg';
+import note from './note.svg';
+import logo from './stukent.svg';
 
-import ProfileDemo from '../profiledemo';
 
-
-class DemoBottombar extends Component {
+class Bottombar extends Component {
     render() {
 
       return (
-        <div className="bottombar">
-            <img src={ms} className="logo"/>
-            <ProfileDemo/>
+        <div className="topbar">
+            <div className="logobox">
+                <img src={hint} />
+            </div>
+            <img src={note} className="note"/>
+            <img src={logo} className="logo"/>
         </div>
       );
     }
   }
   
-  export default DemoBottombar;
+  export default Bottombar;
   

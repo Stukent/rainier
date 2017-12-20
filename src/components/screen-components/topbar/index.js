@@ -1,25 +1,21 @@
 import React, { Component } from 'react';
 import './style.scss';
-import hint from './hints.svg';
-import note from './note.svg';
-import logo from './stukent.svg';
+import ms from './mimic-logo.svg';
+
+import ProfileDemo from '../profiledemo';
 
 
-class DemoTopbar extends Component {
+class Topbar extends Component {
     render() {
 
       return (
-        <div className="topbar">
-            {/* <div className="green-alert"></div> */}
-            <div className="logobox">
-                <img src={hint} />
-            </div>
-            <img src={note} className="note"/>
-            <img src={logo} className="logo"/>
+        <div className="bottombar">
+            <img src={ms} className="logo"/>
+            <ProfileDemo/>
         </div>
       );
     }
   }
   
-  export default DemoTopbar;
+  export default Topbar;
   

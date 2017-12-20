@@ -1,0 +1,29 @@
+@import '../../screens/colors/style.scss';
+
+
+
+.display-sidebar{
+    background-color: $sidebar;
+    height: 500px;
+    width: 70px;
+
+}
+
+.logobox {
+    .mimiclogo{    
+        height: 60px;
+        padding: 10px 0;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+.iconsbox{
+    .demo-list{
+        display: block;
+        margin: 0 auto;
+        height: 30px;
+        padding: 10px;
+        cursor: pointer;
+    }
+}

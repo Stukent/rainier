@@ -1,0 +1,23 @@
+@import '../../screens/colors/style.scss';
+
+.queried-bar {
+    background-color: $sidebar;
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+
+    .logobox{
+        background-color: $logo-wrapper;
+        height: inherit;
+        width: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .dropmenu{
+            height: 32px;
+        }
+    }
+
+}

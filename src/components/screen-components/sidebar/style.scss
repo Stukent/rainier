@@ -3,13 +3,78 @@
 
 .sidebar {
     background-color: $sidebar;
-    height: 500px;
-    width: 240px;
+    height: 700px;
+    width: 220px;
     margin: 0 20px;
 
     .logobox{
-        background-color: $ms-logo;
-        height: 100px;
-        width: inherit;
+        .sidebar-logo, .mp-logo{
+            display: block;
+            margin: 0 auto;
+            margin-top: 12px;
+        }
+    }
+}
+
+.mp-logo{
+    height: 40px;
+    margin: 15px;
+}
+
+.sidebar-logo{
+    height: 15px;
+}
+
+.menu-links{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.sidebar-list{
+    padding: 0;
+    list-style: none;
+    margin-left: 25px;
+    font-size: 13px;
+
+
+    li{
+        margin-bottom: 10px;  
+        padding: 3px;
+
+        &:hover{
+            background-color: #5899e2;
+            padding-left: 6px;
+            transition: all .2s ease-in-out;
+        }
+    }
+  
+    a{
+        color: #ffffff;
+
+    }
+}
+
+.decisions, .hints-section{
+    margin-top: 30px;
+
+    span{
+        font-weight: 700;
+        color: #5899e2;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+}
+
+.rounds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #5899e2;
+    padding: 10px;
+
+    span{
+        color: #ffffff;
+        font-size: 15px;
     }
 }

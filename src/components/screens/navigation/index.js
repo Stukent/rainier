@@ -6,9 +6,11 @@ import Ui from './ui-ex.svg';
 import desk from './desk-lap.svg';
 import tablet from './tablet.svg';
 import smartphone from './smartphone.svg';
-import DemoSidebar from '../../screen-components/sidebar/';
-import DemoTopbar from '../../screen-components/topbar/';
-import DemoBottombar from '../../screen-components/bottombar/';
+import Sidebar from '../../screen-components/sidebar/';
+import DisplaySidebar from '../../screen-components/display-sidebar/';
+import MobileBar from '../../screen-components/mobile-bar/';
+import Topbar from '../../screen-components/topbar/';
+import Bottombar from '../../screen-components/bottombar/';
 
   
 
@@ -55,7 +57,27 @@ class NaviScreen extends Component {
                
                 <div className="nav-hierachy">
                     <div className="side">
-                        <DemoSidebar/>
+                        <Sidebar>
+                            
+                            <div className="decisions">
+                                <span>Decisions</span>
+                                <ul className="sidebar-list">
+                                    <li><a href="#">Menu Item</a></li>
+                                    <li><a href="#">Menu Item</a></li>
+                                    <li><a href="#">Menu Item</a></li>
+                                </ul>
+                            </div>
+
+                            <div className="hints-section">
+                                <span>Hints</span>
+                                <ul className="sidebar-list">
+                                    <li><a href="#">Menu Item</a></li>
+                                    <li><a href="#">Menu Item</a></li>
+                                    <li><a href="#">Menu Item</a></li>
+                                </ul>
+                            </div>
+
+                        </Sidebar>
                         <div className="nav-text">
                             <img src={desk} />
                             <p>
@@ -79,14 +101,14 @@ class NaviScreen extends Component {
                                 The smaller the screen size, for example <strong>1024px to 750px</strong>, the smaller the sidebar. Things tend to get a bit trickier here due to the fact that words would take space in the sidebar. Items in menus are to slide to the side if you decide to use the sidebar.
                             </p>
                         </div>  
-                        <div className="queried-bar-long">
-                            <div className="logobox"></div>
+                        <div className="smaller-sidebar">
+                            <DisplaySidebar/>
                         </div>
                     </div>
 
                     <div className="phone">
-                        <div className="queried-bar">
-                            <div className="logobox"></div>
+                        <div className="mobile-menu-container">
+                        <MobileBar/>
                         </div>
                         <div className="nav-text">
                         <img src={smartphone}/>
@@ -104,10 +126,11 @@ class NaviScreen extends Component {
                 <p>The two top and bottom bars serve the same purpose as the sidebar above. While the topbar contains page navigation and profile cards, the bottom bar contains sliders with hints, decisions, and progress bars.</p>
                 <strong>Top Navigation Bar</strong>
                 <p>Basic items belong here such as links to other pages within the simulations and profile information dropdown. For example: landing pages, ad campaigns, product catalog, etc.</p>
-                <DemoBottombar />
+                <Topbar />
                 <strong>Bottom Tool Bar</strong>
                 <p>This bar is for more complex items. On this one the simulation is to track hints, decisions, progress, notifications, and warnings.</p>
-                <DemoTopbar />
+                
+                <Bottombar />
                 
                </div>
                 
