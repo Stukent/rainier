@@ -11,7 +11,6 @@ class Topbar extends Component {
       return (
         <div className="bottombar">
             <img src={ms} className="logo"/>
-            <ProfileDemo/>
         </div>
       );
     }

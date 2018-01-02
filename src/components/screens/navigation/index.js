@@ -89,7 +89,7 @@ class NaviScreen extends Component {
                                 <li>Decisions</li>
                                 <li>Logos</li>
                             </ul>
-                            <p><em>To find exact size and resolutions for all screens go to <a href="http://screensiz.es/">screensiz.es</a>.</em></p>
+                            <p><em>To find exact size and resolutions for all screens go to <a href="http://screensiz.es/"  target="_blank">screensiz.es</a>.</em></p>
                         </div>
 
                     </div>
@@ -113,11 +113,13 @@ class NaviScreen extends Component {
                         <div className="nav-text">
                         <img src={smartphone}/>
                             <p>
-                            The <strong>Sidebar</strong> component turns into a top bar for navigation as soon as it hits smartphone size, <strong>750px and less.</strong> This menu is required to have a dropdown menu activated when clicked on the proper <a href="https://material.io/icons/">material icon</a>.
+                            The <strong>Sidebar</strong> component turns into a top bar for navigation as soon as it hits smartphone size, <strong>750px and less.</strong> This menu is required to have a dropdown menu activated when clicked on the proper <a href="https://material.io/icons/" target="_blank">material icon</a>.
                             </p>
                         </div>
                    
                     </div>
+
+                    <span className="code-link"><strong>To help visualize the interaction and responsiveness go to this </strong><a href="https://codepen.io/romipaintero/pen/goMvdL" target="_blank">codepen</a>.</span>
 
                 </div>
                

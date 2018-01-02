@@ -21,13 +21,18 @@
         margin-left: 10px;
     }
 
-    .logo{
-        height: 19px;
-        margin-left: 82%;
-        margin-top: 10px;
-    }
+
+}
+
+.icons-wrapper{
+    display: flex;
 }
 
 // .green-alert {
 //     background-color: $alert-green;
 // }
+
+@media only screen and (max-width: 950px) {
+
+
+}

@@ -65,39 +65,33 @@
         }
     }
 
-    .queried-bar, .queried-bar-long{
-        margin: 0px 20px;
-    }
-
-    .queried-bar {
-        background-color: $sidebar;
-        height: 40px;
-        width: 300px;
-        display: flex;
-        justify-content: flex-end;
-
-        .logobox{
-            background-color: $logo-wrapper;
-            height: inherit;
-            width: 55px;
-        }
-
-    }
-    
-    .queried-bar-long{
-        background-color: $sidebar;
-        height: 500px;
-        width: 70px;
-
-        .logobox{
-            background-color: $logo-wrapper;
-            height: 60px;
-            width: inherit;
-        }
+    .code-link{
+        display: block;
+        text-align: center;
+        margin: 60px 0;
     }
     
 }
 
+
+@media only screen and (max-width: 825px) {
+
+    .responsive{
+        img{
+            width: 85%;
+        }
+    }
+
+    .phone, .short, .side{
+        flex-direction: column;
+        padding: 35px 0;
+    }
+
+    .nav-text{
+        padding: 35px 0;
+    }
+
+}
 
 
 

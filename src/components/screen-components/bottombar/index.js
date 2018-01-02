@@ -10,11 +10,14 @@ class Bottombar extends Component {
 
       return (
         <div className="topbar">
-            <div className="logobox">
-                <img src={hint} />
-            </div>
-            <img src={note} className="note"/>
-            <img src={logo} className="logo"/>
+          <div className="icons-wrapper">
+              <div className="logobox">
+                  <img src={hint} />
+              </div>
+              <img src={note} className="note"/>
+          </div>
+            
+            
         </div>
       );
     }
