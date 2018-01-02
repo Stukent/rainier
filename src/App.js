@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.scss';
 import Layout from './components/layout';
-import Content from './components/content';
+import Content from './components/main-screen-components/content';
 import Typescreen from './components/screens/typefaces';
 import Colorspage from './components/screens/colors';
 import Alertscreen from './components/screens/alerts';
