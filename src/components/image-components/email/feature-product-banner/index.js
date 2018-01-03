@@ -9,7 +9,7 @@ class FeaturedBanner extends Component {
 
     return (
         <div className="featured-ban-wrapper">
-            <img src={featuredbanner} className="featuredbanner"/>
+            <img src={featurebanner} className="featuredbanner"/>
         </div>
     );
 }

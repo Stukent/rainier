@@ -15,4 +15,5 @@ class EmailLogo extends Component {
 }
 }
 
-export default EmailLogor;
+export default EmailLogo;
+

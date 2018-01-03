@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './style.scss';
-import customfull from './custom_full_wdith.png';
+import customfull from './custom_full_width.png';
+
 
 
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './style.scss';
-import loaderbig from './loader-large.gif';
+import loaderbig from './loader_large.gif';
 
 
 

@@ -9,7 +9,7 @@ class IntroBlack extends Component {
 
     return (
         <div className="intro-black-wrapper">
-            <img src={intro} className="intro-black"/>
+            <img src={introblack} className="intro-black"/>
         </div>
     );
 }

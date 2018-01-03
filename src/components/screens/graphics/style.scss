@@ -1,42 +1,30 @@
 .logos{
-    margin-top: 100px;   
+    margin-top: 100px; 
+     
 }
 .main-logos{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
-}
-.white-logos{
-    background-color: #222222;
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
-.stu, .pro, .so {
-    margin: 5px 15px;
-    display: inline-block;
-}
 
-.stu{
-    height: 50px;
-}
-.pro{
-    height: 75px;
-}
-
-.so{
-    height: 62px;
-}
-
-.errors{
-    display: flex;
-    justify-content: center;
     img{
-        height: 300px;
-        margin: 10px;
+    height: 75px;
+    margin: 35px 15px;
     }
-
 }
+
+.shield-logos {
+    display: flex;
+    justify-content: center;
+
+    img{
+        height: 170px;
+        margin: 5px 15px;
+    }
+}
+
+
+
+
 
 .animations {
     margin-top: 100px;
@@ -44,6 +32,13 @@
     .errors {
         margin-top: 30px;
         margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+
+        img{
+            height: 300px;
+            margin: 0px 10px;
+        }
     }
 }
 
@@ -65,21 +60,27 @@
 
 .email-img{
     margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 
         img{
             margin: 10px;
         }
 
+    .banners{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .halfwidth{
         margin: 20px auto;
-        text-align: center;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
 
         img{
-            height: 200px;
+            
+            height: 300px;
             margin: 5px;
         }
     }
@@ -89,6 +90,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
 .buhi{
@@ -110,6 +112,7 @@
 }
 
 .avys{
+    display: flex;
     img{
         height: 100px;
         margin: 15px;

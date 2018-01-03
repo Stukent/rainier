@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './style.scss';
-import socialshield from './mimic-social.svg';
-
+import socialshield from './mimic-social-shield.svg';
 
 
 class SocialShield extends Component {

@@ -9,7 +9,7 @@ class Buhi extends Component {
 
     return (
         <div className="buhi-wrapper">
-            <img src={buhi} className="buhi"/>
+            <img src={buhi} className="buhi-logo"/>
         </div>
     );
 }
