@@ -1,0 +1,78 @@
+.mocontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+  }
+  
+  .exit{
+    display: flex;
+    justify-content: flex-end;
+    img{
+      cursor: pointer;
+    }
+  }
+  
+  .modal-small{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 78px -10px rgba(196,199,203,1);
+    width: 540px;
+    height: 245px;
+    padding: 15px;
+    border-radius: 5px;
+    
+  }
+  
+  .modal-content{
+    position: relative;
+    font-family: 'Open Sans';
+    
+    h2{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-family: 'Open Sans';
+      font-weight: bolder;
+    }
+    
+    p{
+      font-size: 15px;
+    }
+  }
+  
+  .action{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    
+    a{
+      text-decoration: none;
+      color: #93A8AC;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+    
+    a:nth-child(2){
+      color: #DC493A;
+      margin-left: 18px;
+    }
+  }
+  
+  .cart-btn{
+    background-color: #DC493A;
+    height: 35px;
+    width: 100px;
+    border: none;
+    
+    a{
+      color: #ffffff;
+    }
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+  
+  .back-btn{
+    width: 100px;
+  }
+  
