@@ -14,7 +14,7 @@ class Typescreen extends Component {
             <div className="intro-header">
                 <div className="main-title">Typefaces </div>
                 <p>
-                Explanation and usage of the fonts used in <strong>Mimic Social</strong> and <strong>Mimic pro</strong>. Along with usage for <a href="#">links,</a> <strong>bold,</strong> and <em>emphasized</em> text. The main fonts used for this are <a href="https://fonts.google.com/specimen/Lora" rel="noopener noreferrer" target="_blank">Lora</a> and <a href="https://fonts.google.com/specimen/Open+Sans" target="_blank">Open Sans</a>.
+                Explanation and usage of the fonts used in <strong>Mimic Social</strong> and <strong>Mimic pro</strong>. Along with usage for <a href="#item">links,</a> <strong>bold,</strong> and <em>emphasized</em> text. The main fonts used for this are <a href="https://fonts.google.com/specimen/Lora" rel="noopener noreferrer" target="_blank">Lora</a> and <a href="https://fonts.google.com/specimen/Open+Sans" rel='noopener noreferrer' target="_blank">Open Sans</a>.
                 </p>
             </div>
            
@@ -52,7 +52,7 @@ class Typescreen extends Component {
                         <p> There are different ways to explore and implement the fonts within a project, but the key is consistency and harmony.</p>
 
                         <ul className="font-exp">
-                        <li><a href="#">When it comes to links</a></li>
+                        <li><a href="#item">When it comes to links</a></li>
                         <li><strong>and bolder items for emphasis</strong></li>
                         <li><em>we also have italized</em></li>
                         <li className="under">or underlined for sarcasm</li>

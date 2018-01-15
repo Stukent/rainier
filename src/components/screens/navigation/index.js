@@ -33,7 +33,7 @@ class NaviScreen extends Component {
             </div>
 
             <div className="responsive">
-                <img src={Ui} className="ui-ex"/>
+                <img src={Ui} className="ui-ex" alt=''/>
                 <div className="sizes">
                     <h2>Responsiveness</h2>
                     <p>Navigation, along with other layout components, will vary depending on the screen size and resolution of the monitor your audience uses. The end goal is to make it available to everyone.</p>
@@ -60,24 +60,24 @@ class NaviScreen extends Component {
                             <div className="decisions">
                                 <span>Decisions</span>
                                 <ul className="sidebar-list">
-                                    <li><a href="#">Menu Item</a></li>
-                                    <li><a href="#">Menu Item</a></li>
-                                    <li><a href="#">Menu Item</a></li>
+                                    <li><a href="#item">Menu Item</a></li>
+                                    <li><a href="#item">Menu Item</a></li>
+                                    <li><a href="#item">Menu Item</a></li>
                                 </ul>
                             </div>
 
                             <div className="hints-section">
                                 <span>Hints</span>
                                 <ul className="sidebar-list">
-                                    <li><a href="#">Menu Item</a></li>
-                                    <li><a href="#">Menu Item</a></li>
-                                    <li><a href="#">Menu Item</a></li>
+                                    <li><a href="#item">Menu Item</a></li>
+                                    <li><a href="#item">Menu Item</a></li>
+                                    <li><a href="#item">Menu Item</a></li>
                                 </ul>
                             </div>
 
                         </Sidebar>
                         <div className="nav-text">
-                            <img src={desk} />
+                            <img src={desk} alt='desktop' />
                             <p>
                             The <strong>Sidebar</strong> component shows up at bigger screens - <strong>greater than 1024px</strong>. The sidebar supports the simulation with optimal information ranging from decisions to hints for the user to complete in order to finish the simulations. 
                             </p>
@@ -87,14 +87,14 @@ class NaviScreen extends Component {
                                 <li>Decisions</li>
                                 <li>Logos</li>
                             </ul>
-                            <p><em>To find exact size and resolutions for all screens go to <a href="http://screensiz.es/"  target="_blank">screensiz.es</a>.</em></p>
+                            <p><em>To find exact size and resolutions for all screens go to <a href="http://screensiz.es/" rel='noopener noreferrer' target="_blank">screensiz.es</a>.</em></p>
                         </div>
 
                     </div>
 
                     <div className="short">
                         <div className="nav-text">
-                        <img src={tablet} />
+                        <img src={tablet} alt='tablet'/>
                             <p>
                                 The smaller the screen size, for example <strong>1024px to 750px</strong>, the smaller the sidebar. Things tend to get a bit trickier here due to the fact that words would take space in the sidebar. Items in menus are to slide to the side if you decide to use the sidebar.
                             </p>
@@ -109,15 +109,15 @@ class NaviScreen extends Component {
                         <MobileBar/>
                         </div>
                         <div className="nav-text">
-                        <img src={smartphone}/>
+                        <img src={smartphone} alt='smartphone'/>
                             <p>
-                            The <strong>Sidebar</strong> component turns into a top bar for navigation as soon as it hits smartphone size, <strong>750px and less.</strong> This menu is required to have a dropdown menu activated when clicked on the proper <a href="https://material.io/icons/" target="_blank">material icon</a>.
+                            The <strong>Sidebar</strong> component turns into a top bar for navigation as soon as it hits smartphone size, <strong>750px and less.</strong> This menu is required to have a dropdown menu activated when clicked on the proper <a href="https://material.io/icons/" rel='noopener noreferrer' target="_blank">material icon</a>.
                             </p>
                         </div>
                    
                     </div>
 
-                    <span className="code-link"><strong>To help visualize the interaction and responsiveness go to this </strong><a href="https://codepen.io/romipaintero/pen/goMvdL" target="_blank">codepen</a>.</span>
+                    <span className="code-link"><strong>To help visualize the interaction and responsiveness go to this </strong><a href="https://codepen.io/romipaintero/pen/goMvdL" rel='noopener noreferrer' target="_blank">codepen</a>.</span>
 
                 </div>
                

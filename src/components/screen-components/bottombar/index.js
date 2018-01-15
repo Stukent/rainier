@@ -11,9 +11,9 @@ class Bottombar extends Component {
         <div className="topbar">
           <div className="icons-wrapper">
               <div className="logobox">
-                  <img src={hint} />
+                  <img src={hint} alt='hints' />
               </div>
-              <img src={note} className="note"/>
+              <img src={note} className="note" alt='notes'/>
           </div>
             
             
