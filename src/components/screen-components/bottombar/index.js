@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './style.scss';
 import hint from './hints.svg';
 import note from './note.svg';
-import logo from './stukent.svg';
 
 
 class Bottombar extends Component {

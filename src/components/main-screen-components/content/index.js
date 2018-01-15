@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './style.scss';
-import styled from 'styled-components';
 import Intro from '../intro';
 import Typefaces from '../typefaces';
 import Colors from '../colors';

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './style.scss';
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
   
   
@@ -16,7 +14,7 @@ class Typescreen extends Component {
             <div className="intro-header">
                 <div className="main-title">Typefaces </div>
                 <p>
-                Explanation and usage of the fonts used in <strong>Mimic Social</strong> and <strong>Mimic pro</strong>. Along with usage for <a href="#">links,</a> <strong>bold,</strong> and <em>emphasized</em> text. The main fonts used for this are <a href="https://fonts.google.com/specimen/Lora" target="_blank">Lora</a> and <a href="https://fonts.google.com/specimen/Open+Sans" target="_blank">Open Sans</a>.
+                Explanation and usage of the fonts used in <strong>Mimic Social</strong> and <strong>Mimic pro</strong>. Along with usage for <a href="#">links,</a> <strong>bold,</strong> and <em>emphasized</em> text. The main fonts used for this are <a href="https://fonts.google.com/specimen/Lora" rel="noopener noreferrer" target="_blank">Lora</a> and <a href="https://fonts.google.com/specimen/Open+Sans" target="_blank">Open Sans</a>.
                 </p>
             </div>
            
@@ -25,7 +23,7 @@ class Typescreen extends Component {
                 <div className="typeface-group">
                     <div className="lora">
                         <h2>Lora</h2>
-                        <p><a href="https://fonts.google.com/specimen/Lora" target="_blank">Lora</a> is used in Stukent's Rainier Styleguide for the main headers ranging from 1 - 6. </p>
+                        <p><a href="https://fonts.google.com/specimen/Lora" rel="noopener noreferrer" target="_blank">Lora</a> is used in Stukent's Rainier Styleguide for the main headers ranging from 1 - 6. </p>
                         <span className="sub-title">Header Styles:</span>
                             <ul className="header-sizes">
                                 <li><span className="font-styles">Lora Regular 40px</span></li>
@@ -36,7 +34,7 @@ class Typescreen extends Component {
                     </div>
                     <div className="sans">
                     <h2>Open Sans</h2>
-                        <p><a href="https://fonts.google.com/specimen/Open+Sans" target="_blank">Open Sans</a> is used for the body typeface in the applications. Different meanings on text are given through the different weights that the font allows us to.</p>
+                        <p><a href="https://fonts.google.com/specimen/Open+Sans" rel="noopener noreferrer" target="_blank">Open Sans</a> is used for the body typeface in the applications. Different meanings on text are given through the different weights that the font allows us to.</p>
                         <span className="sub-title">Different Weights:</span>
                         <ul className="font-weights"> 
                             <li><span class="light">300 - Open Sans Light</span></li>

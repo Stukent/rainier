@@ -8,7 +8,7 @@ import Alertscreen from './components/screens/alerts';
 import NaviScreen from './components/screens/navigation';
 import Graphics from './components/screens/graphics';
 import Widgets from './components/screens/widgets';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
   
 
 

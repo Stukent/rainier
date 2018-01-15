@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
 import './style.scss';
-import styled from 'styled-components';
-
-
-
-
 
 class Intro extends Component {
   render() {

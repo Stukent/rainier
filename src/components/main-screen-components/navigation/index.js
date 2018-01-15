@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './style.scss';
-import styled from 'styled-components';
 import Sidebar from '../../elbert-comp/sidebar/';
 
 

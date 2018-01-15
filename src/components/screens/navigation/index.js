@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './style.scss';
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 import Ui from './ui-ex.svg';
 import desk from './desk-lap.svg';
 import tablet from './tablet.svg';

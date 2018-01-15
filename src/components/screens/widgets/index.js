@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './style.scss';
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 import Button from '../../screen-components/button/';
 import Dropdown from '../../screen-components/dropdown/';
 import Form from '../../screen-components/form/';

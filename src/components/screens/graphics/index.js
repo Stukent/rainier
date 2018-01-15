@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './style.scss';
-import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 import StukentBlack from '../../image-components/stukent-brand/stukent-black';

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './style.scss';
 import logo from './stukent.svg';
 import mp from './w-mp.svg';
-import ms from './ms-green.svg';
 
 
 

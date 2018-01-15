@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './style.scss';
-import { Link } from 'react-router-dom';
 import Alert from '../../screen-components/alert';
 import PopUp from '../../screen-components/pop-up';
 

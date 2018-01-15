@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './style.scss';
-import PropTypes from 'prop-types';
 import ewoke from './ewoke.svg';
 
 const popmessage = "Lorem ipsum dolor sit amet, no putent quaeque quo, id eum mundi copiosae. Cibo delectus salutatus no sea. Ius option inciderint no, et vix duis appellantur. Omnis vivendo oporteat ei nec.";
