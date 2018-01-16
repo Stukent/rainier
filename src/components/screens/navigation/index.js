@@ -4,10 +4,7 @@ import Ui from './ui-ex.svg';
 import desk from './desk-lap.svg';
 import tablet from './tablet.svg';
 import smartphone from './smartphone.svg';
-import Sidebar from '../../screen-components/sidebar/';
-import DisplaySidebar from '../../screen-components/display-sidebar/';
-import MobileBar from '../../screen-components/mobile-bar/';
-import {Topbar, Bottombar} from 'timp';
+import {Topbar, Bottombar, Sidebar, DisplaySidebar, MobileBar} from 'timp';
 
   
 
