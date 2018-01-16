@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './style.scss';
-import Alert from '../../screen-components/alert';
-import PopUp from '../../screen-components/pop-up';
+import {Alert, PopUp} from 'timp'
 
   
 const errormessage = "Lorem ipsum dolor sit amet, ornatus omnesque periculis cu nam. Quo id ridens nostro praesent."

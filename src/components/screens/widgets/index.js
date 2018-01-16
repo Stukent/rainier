@@ -1,16 +1,6 @@
 import React, { Component } from 'react';
 import './style.scss';
-import Button from '../../screen-components/button/';
-import Dropdown from '../../screen-components/dropdown/';
-import Form from '../../screen-components/form/';
-import Paginate from '../../screen-components/pagination/';
-import Selectors from '../../screen-components/selectors/';
-import Accordion from '../../screen-components/accordion/';
-import Card from '../../screen-components/card/';
-import Table from '../../screen-components/table/';
-import Modal from '../../screen-components/modal-one/';
-import ModalSmall from '../../screen-components/modal-two/';
-import ModalInvert from '../../screen-components/modal-three/';
+import {Button, Dropdown, Form, Paginate, Selectors, Accordion, Card, Table, Modal, ModalSmall, ModalInvert} from 'timp'
   
 
 
