@@ -7,8 +7,7 @@ import smartphone from './smartphone.svg';
 import Sidebar from '../../screen-components/sidebar/';
 import DisplaySidebar from '../../screen-components/display-sidebar/';
 import MobileBar from '../../screen-components/mobile-bar/';
-import {Topbar} from 'timp';
-import Bottombar from '../../screen-components/bottombar/';
+import {Topbar, Bottombar} from 'timp';
 
   
 
