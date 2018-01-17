@@ -1,3 +1,5 @@
 ecosystem.config.js
+config/
 src/registerServiceWorker.js
 src/components/elbert-comp/
+**/timp/node_modules/
