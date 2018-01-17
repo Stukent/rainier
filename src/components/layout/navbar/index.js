@@ -1,14 +1,15 @@
-import React, { Component } from 'react';
-import './style.scss';
-import styled from 'styled-components';
-import Stukent from '../../image-components/stukent-brand/stukent/';
-import {Link} from 'react-router-dom';
+import React from 'react'
+import styled from 'styled-components'
+
+import { NavLink } from 'react-router-dom'
+
+import './style.scss'
+
+import Stukent from '../../image-components/stukent-brand/stukent/'
 
 
-class Navbar extends Component {
-    render() {
-
-      const Item = styled.li`
+const Navbar = () => {
+  const Item = styled.li`
       /* This renders the buttons above... Edit me! */
       display: inline-block;
       padding: 0.2rem 0;
@@ -18,27 +19,26 @@ class Navbar extends Component {
     `
 
 
-      return (
-        <div className="navbar">
-          <nav>
+  return (
+    <div className="navbar">
+      <nav>
 
-            <div className="stukent-logo">
-              <Link to="/"><Stukent/></Link>
-            </div>
-            <ul>
-              <Item><Link to="/typefaces">Typefaces</Link></Item>
-              <Item><Link to="/colors">Colors</Link></Item>
-              <Item><Link to="/alerts">Alerts</Link></Item>
-              <Item><Link to="/navigation">Navigation</Link></Item>
-              <Item><Link to="/graphics">Graphics</Link></Item>
-              <Item><Link to="/widgets">Widgets</Link></Item>
-            </ul>
-
-          </nav>
+        <div className="stukent-logo">
+          <NavLink to="/"><Stukent /></NavLink>
         </div>
-      );
-    }
-  }
-  
-  export default Navbar;
-  
+        <ul>
+          <Item><NavLink to="/typefaces">Typefaces</NavLink></Item>
+          <Item><NavLink to="/colors">Colors</NavLink></Item>
+          <Item><NavLink to="/alerts">Alerts</NavLink></Item>
+          <Item><NavLink to="/navigation">Navigation</NavLink></Item>
+          <Item><NavLink to="/graphics">Graphics</NavLink></Item>
+          <Item><NavLink to="/widgets">Widgets</NavLink></Item>
+        </ul>
+
+      </nav>
+    </div>
+  )
+}
+
+export default Navbar
+

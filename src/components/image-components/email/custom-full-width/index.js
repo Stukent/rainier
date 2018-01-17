@@ -1,19 +1,12 @@
-import React, { Component } from 'react';
-import './style.scss';
-import customfull from './custom_full_width.png';
+import React from 'react'
+import './style.scss'
+import customfull from './custom_full_width.png'
 
 
+const CustomFull = () => (
+  <div className="custom-full-wrapper">
+    <img src={customfull} className="customfull" />
+  </div>
+)
 
-
-class CustomFull extends Component {
-  render() {
-
-    return (
-        <div className="custom-full-wrapper">
-            <img src={customfull} className="customfull"/>
-        </div>
-    );
-}
-}
-
-export default CustomFull;
+export default CustomFull

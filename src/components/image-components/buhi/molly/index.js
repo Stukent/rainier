@@ -1,18 +1,12 @@
-import React, { Component } from 'react';
-import './style.scss';
-import molly from './molly.svg';
+import React from 'react'
+import './style.scss'
+import molly from './molly.svg'
 
 
+const Molly = () => (
+  <div className="molly-wrapper">
+    <img src={molly} className="molly" />
+  </div>
+)
 
-class Molly extends Component {
-  render() {
-
-    return (
-        <div className="molly-wrapper">
-            <img src={molly} className="molly"/>
-        </div>
-    );
-}
-}
-
-export default Molly;
+export default Molly

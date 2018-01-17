@@ -1,18 +1,12 @@
-import React, { Component } from 'react';
-import './style.scss';
-import sally from './sally.svg';
+import React from 'react'
+import './style.scss'
+import sally from './sally.svg'
 
 
+const Sally = () => (
+  <div className="sally-wrapper">
+    <img src={sally} className="sally" />
+  </div>
+)
 
-class Sally extends Component {
-  render() {
-
-    return (
-        <div className="sally-wrapper">
-            <img src={sally} className="sally"/>
-        </div>
-    );
-}
-}
-
-export default Sally;
+export default Sally

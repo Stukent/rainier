@@ -1,19 +1,13 @@
-import React, { Component } from 'react';
-import './style.scss';
-import emaillogo from './company_logo.png';
+import React from 'react'
+import './style.scss'
+import emaillogo from './company_logo.png'
 
 
+const EmailLogo = () => (
+  <div className="email-logo-wrapper">
+    <img src={emaillogo} className="emaillogo" />
+  </div>
+)
 
-class EmailLogo extends Component {
-  render() {
-
-    return (
-        <div className="email-logo-wrapper">
-            <img src={emaillogo} className="emaillogo"/>
-        </div>
-    );
-}
-}
-
-export default EmailLogo;
+export default EmailLogo
 

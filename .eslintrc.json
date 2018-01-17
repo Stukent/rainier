@@ -1,0 +1,83 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": "airbnb",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "func-names": [
+      "error",
+      "always"
+    ],
+    "react/forbid-prop-types": 0,
+    "semi": [
+      "error",
+      "never"
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "react/prop-types": 0,
+    "react/sort-comp": 0,
+    "prefer-arrow-callback": 2,
+    "no-bitwise": "warn",
+    "no-shadow": "warn",
+    "no-param-reassign": "warn",
+    "no-unused-expressions": "warn",
+    "no-nested-ternary": "warn",
+    "global-require": "warn",
+    "no-throw-literal": "warn",
+    "no-plusplus": "warn",
+    "no-mixed-operators": "warn",
+    "no-continue": "warn",
+    "no-sequences": "warn",
+    "no-useless-escape": "warn",
+    "array-callback-return": "warn",
+    "no-use-before-define": "warn",
+    "no-alert": "warn",
+    "no-await-in-loop": "warn",
+    "no-return-await": "warn",
+    "no-restricted-syntax": "warn",
+    "no-prototype-builtins": "warn",
+    "guard-for-in": "warn",
+    "class-methods-use-this": "warn",
+    "max-len": "warn",
+    "no-unused-vars": "warn",
+    "no-return-assign": "warn",
+    "no-underscore-dangle": "warn",
+    "eqeqeq": "warn",
+    "import/first": "warn",
+    "import/prefer-default-export": "warn",
+    "import/no-unresolved": "warn",
+    "import/no-extraneous-dependencies": "warn",
+    "import/no-dynamic-require": "warn",
+    "consistent-return": "warn",
+    "jsx-a11y/alt-text": "off",
+    "jsx-a11y/no-static-element-interactions": "warn",
+    "jsx-a11y/label-has-for": "warn",
+    "jsx-a11y/media-has-caption": "warn",
+    "jsx-a11y/no-noninteractive-element-interactions": "warn",
+    "react/prefer-stateless-function": "warn",
+    "react/no-multi-comp": "warn",
+    "react/jsx-indent": "warn",
+    "react/no-array-index-key": "warn"
+  }
+}

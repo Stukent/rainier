@@ -1,23 +1,14 @@
-import React, { Component } from 'react';
-import './style.scss';
-import Navbar from './navbar';
-import Footer from './footer/';
+import React from 'react'
+import './style.scss'
+import Navbar from './navbar'
+import Footer from './footer/'
 
 
+const Layout = ({ children }) => (
+  <div> <Navbar />
+    {children}
+    <Footer />
+  </div>
+)
 
-class Layout extends Component {
-  render() {
-
-    return (
-        <div>
-            <Navbar />
-
-            {this.props.children}
-
-            <Footer />
-        </div>
-    );
-}
-}
-
-export default Layout;
+export default Layout

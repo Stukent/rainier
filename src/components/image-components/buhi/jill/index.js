@@ -1,18 +1,12 @@
-import React, { Component } from 'react';
-import './style.scss';
-import jill from './jill.svg';
+import React from 'react'
+import './style.scss'
+import jill from './jill.svg'
 
 
+const Jill = () => (
+  <div className="jill-wrapper">
+    <img src={jill} className="jill" />
+  </div>
+)
 
-class Jill extends Component {
-  render() {
-
-    return (
-        <div className="jill-wrapper">
-            <img src={jill} className="jill"/>
-        </div>
-    );
-}
-}
-
-export default Jill;
+export default Jill

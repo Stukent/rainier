@@ -1,18 +1,12 @@
-import React, { Component } from 'react';
-import './style.scss';
-import stukent from './stukent.svg';
+import React from 'react'
+import './style.scss'
+import stukent from './stukent.svg'
 
 
+const Stukent = () => (
+  <div className="stu-logo-wrapper">
+    <img src={stukent} className="stukent" />
+  </div>
+)
 
-class Stukent extends Component {
-  render() {
-
-    return (
-        <div className="stu-logo-wrapper">
-            <img src={stukent} className="stukent"/>
-        </div>
-    );
-}
-}
-
-export default Stukent;
+export default Stukent

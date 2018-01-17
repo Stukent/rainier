@@ -1,18 +1,12 @@
-import React, { Component } from 'react';
-import './style.scss';
-import introshield from './intro-shield.svg';
+import React from 'react'
+import './style.scss'
+import introshield from './intro-shield.svg'
 
 
+const IntroShield = () => (
+  <div className="intro-shield-wrapper">
+    <img src={introshield} className="introshield" />
+  </div>
+)
 
-class IntroShield extends Component {
-  render() {
-
-    return (
-        <div className="intro-shield-wrapper">
-            <img src={introshield} className="introshield"/>
-        </div>
-    );
-}
-}
-
-export default IntroShield;
+export default IntroShield
