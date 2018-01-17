@@ -1,5 +1,21 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import {
+  EmailLogo,
+  CustomBanner,
+  CouponHalf,
+  CustomFull,
+  CustomHalf,
+  FeaturedBanner,
+  FeaturedFull,
+  FeaturedHalf,
+  HolidayBanner,
+  HolidayHalf,
+  HolidaySale,
+  LoyalHalf,
+  SaleImg,
+  SocialHalf,
+} from 'timp'
 
 import StukentBlack from '../../image-components/stukent-brand/stukent-black'
 import SocialBlack from '../../image-components/stukent-brand/mimic-social-black'
@@ -17,22 +33,6 @@ import Error500 from '../../image-components/error-500/'
 import LoaderBig from '../../image-components/loader-big/'
 import Loader from '../../image-components/loader/'
 
-import EmailLogo from '../../image-components/email/email-logo/'
-import CustomBanner from '../../image-components/email/custom-banner'
-import HolidayBanner from '../../image-components/email/holiday-banner/'
-import FeaturedBanner from '../../image-components/email/feature-product-banner/'
-
-import FeaturedHalf from '../../image-components/email/feature-product-half/'
-import CustomHalf from '../../image-components/email/custom-half-width'
-import HolidayHalf from '../../image-components/email/holiday-half-width/'
-import LoyalHalf from '../../image-components/email/loyal-custom-half'
-import SocialHalf from '../../image-components/email/social-half'
-import CouponHalf from '../../image-components/email/coupon-half'
-
-import FeaturedFull from '../../image-components/email/featured-product-full/'
-import CustomFull from '../../image-components/email/custom-full-width/'
-import HolidaySale from '../../image-components/email/holiday-sale'
-import SaleImg from '../../image-components/email/sale-image'
 
 import Buhi from '../../image-components/buhi/buhi'
 import Jill from '../../image-components/buhi/jill/'
