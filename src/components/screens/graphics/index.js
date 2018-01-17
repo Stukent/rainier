@@ -23,6 +23,12 @@ import {
   MimicSocialBlack,
   MimicSocialShieldBlack,
   StukentBlack,
+  BuhiLogo,
+  Jill,
+  Molly,
+  Raj,
+  Sally,
+  Sue,
 } from 'timp'
 
 
@@ -31,14 +37,6 @@ import Error500 from '../../image-components/error-500/'
 
 import LoaderBig from '../../image-components/loader-big/'
 import Loader from '../../image-components/loader/'
-
-
-import Buhi from '../../image-components/buhi/buhi'
-import Jill from '../../image-components/buhi/jill/'
-import Molly from '../../image-components/buhi/molly/'
-import Raj from '../../image-components/buhi/raj/'
-import Sally from '../../image-components/buhi/sally/'
-import Sue from '../../image-components/buhi/sue/'
 
 import './style.scss'
 
@@ -141,7 +139,7 @@ const Graphics = () => (
 
       <div className="buhi-wrapper">
         <div className="sim-img">
-          <Buhi />
+          <BuhiLogo />
         </div>
         <div className="avys">
           <Jill />
