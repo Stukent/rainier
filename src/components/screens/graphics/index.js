@@ -15,17 +15,16 @@ import {
   LoyalHalf,
   SaleImg,
   SocialHalf,
+  IntroShield,
+  MimicIntroBlack,
+  MimicProBlack,
+  ProShieldBlack,
+  MimicShieldBlack,
+  MimicSocialBlack,
+  MimicSocialShieldBlack,
+  StukentBlack,
 } from 'timp'
 
-import StukentBlack from '../../image-components/stukent-brand/stukent-black'
-import SocialBlack from '../../image-components/stukent-brand/mimic-social-black'
-import ProBlack from '../../image-components/stukent-brand/mimic-pro-black'
-import IntroBlack from '../../image-components/stukent-brand/mimic-intro-black'
-
-import Blackshield from '../../image-components/stukent-brand/mimic-shield-black/'
-import SocialShieldblack from '../../image-components/stukent-brand/mimic-social-shield-black/'
-import Proshieldblack from '../../image-components/stukent-brand/pro-shield-black/'
-import IntroShield from '../../image-components/stukent-brand/intro-shield/'
 
 import Error404 from '../../image-components/error-404/'
 import Error500 from '../../image-components/error-500/'
@@ -66,14 +65,14 @@ const Graphics = () => (
     </div>
     <div className="main-logos">
       <StukentBlack />
-      <SocialBlack />
-      <ProBlack />
-      <IntroBlack />
+      <MimicSocialBlack />
+      <MimicProBlack />
+      <MimicIntroBlack />
     </div>
     <div className="shield-logos">
-      <Blackshield />
-      <SocialShieldblack />
-      <Proshieldblack />
+      <MimicShieldBlack />
+      <MimicSocialShieldBlack />
+      <ProShieldBlack />
       <IntroShield />
     </div>
     <div className="animations">
