@@ -29,14 +29,12 @@ import {
   Raj,
   Sally,
   Sue,
+  Error404,
+  Error500,
+  Loader,
+  BigLoader,
 } from 'timp'
 
-
-import Error404 from '../../image-components/error-404/'
-import Error500 from '../../image-components/error-500/'
-
-import LoaderBig from '../../image-components/loader-big/'
-import Loader from '../../image-components/loader/'
 
 import './style.scss'
 
@@ -91,7 +89,7 @@ const Graphics = () => (
       </p>
       <div className="loaders">
         <Loader />
-        <LoaderBig />
+        <BigLoader />
       </div>
 
     </div>

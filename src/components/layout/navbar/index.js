@@ -2,11 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 
 import { NavLink } from 'react-router-dom'
+import { Stukent } from 'timp'
 
 import './style.scss'
-
-import Stukent from '../../image-components/stukent-brand/stukent/'
-
 
 const Navbar = () => {
   const Item = styled.li`
