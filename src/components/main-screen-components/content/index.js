@@ -1,25 +1,36 @@
 import React from 'react'
-
 import './style.scss'
-
 import Intro from '../intro'
-import Typefaces from '../typefaces'
-import Colors from '../colors'
-import Buttons from '../buttons'
-import Alerts from '../alerts'
-import Navs from '../navigation'
+import { NavLink } from 'react-router-dom'
 
 const Content = () => (
-  <div className="contenido">
+  <div className="content-intro">
     <Intro />
-    <div className="wrapper">
-      <Typefaces />
-      <Colors />
-      <Buttons />
-    </div>
-    <Alerts />
-    <Navs />
+    <div className="sections">
+      <div className="child-section">
+        <NavLink to="/typefaces">Typefaces</NavLink>
+      </div>
 
+      <div className="child-section">
+        <NavLink to="/colors">Colors</NavLink>
+      </div>
+
+      <div className="child-section">
+        <NavLink to="/alerts">Alerts</NavLink>
+      </div>
+
+      <div className="child-section">
+        <NavLink to="/navigation">Navigation</NavLink>
+      </div>
+
+      <div className="child-section">
+        <NavLink to="/graphics">Graphics</NavLink>
+      </div>
+
+      <div className="child-section">
+        <NavLink to="/widgets">Widgets</NavLink>
+      </div>
+    </div>
   </div>
 )
 

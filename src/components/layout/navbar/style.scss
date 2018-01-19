@@ -3,6 +3,7 @@
 		position: fixed;
 		width: 100%;
 		z-index: 9999;
+		top: 0;
 
 		nav {
 			display: flex;
@@ -27,7 +28,7 @@
 			text-decoration: none;
 			
 			&:hover{
-				color: #4ECDC4;
+				color: #c5f1c5;
 				transition: 1s ease-in-out color;
 			}
 
