@@ -1,5 +1,5 @@
 import React from 'react'
-import { Alert, PopUp } from 'timp'
+import { Alert, PopUp, ResponsiveAlert } from 'timp'
 
 import './style.scss'
 
@@ -107,7 +107,16 @@ const Alertscreen = () => (
       </div>
 
     </div>
+    <div className="responsive-alerts">
+      <h2>Responsive Alert</h2>
+      <p>
+          This alert is for <strong>tablets and phone screen sizes</strong>, since the normal alerts come from the bottom of the screen. This is a display of the original work on <a href="https://codepen.io/romipaintero/pen/OzdLVL" target="_blank" rel="noopener noreferrer"> Codepen. </a>
+      </p>
 
+      <div className="resp-alert">
+        <ResponsiveAlert />
+      </div>
+    </div>
 
   </div>
 
