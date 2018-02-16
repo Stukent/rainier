@@ -1,7 +1,8 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
+
 import './style.scss'
 import Intro from '../intro'
-import { NavLink } from 'react-router-dom'
 
 const Content = () => (
   <div className="content-intro">
